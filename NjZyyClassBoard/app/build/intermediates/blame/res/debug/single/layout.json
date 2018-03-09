@@ -1,0 +1,430 @@
+[
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_serial.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_table.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_table.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_lesson_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grideview_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\grideview_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_fourth.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_fourth.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grideview_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\grideview_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_operation.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_operation.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_album.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_class_album.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_lesson.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_lesson.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_message.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_table.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_table.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_third.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_third.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_message_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_message_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_message_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_message_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_lesson_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_fourth.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_fourth.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_message.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\second_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_second.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_table_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_table_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_horizal_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\second_horizal_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_third.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_third.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_lesson_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_fourth.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_fourth.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_album.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_class_album.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\second_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_lesson.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_lesson.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grideview_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\grideview_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_table_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_table_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_table.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_table.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_table_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_table_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_message.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_serial.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_second.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_horizal_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\second_horizal_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_playvideo.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_playvideo.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_operation.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_operation.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_second.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\second_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_operation.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_operation.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_tab.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_tab.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_horizal_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\second_horizal_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_album.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_class_album.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_lesson.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_lesson.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_playvideo.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_serial.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_third.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_third.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_message_list_item.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_message_list_item.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
+    }
+]

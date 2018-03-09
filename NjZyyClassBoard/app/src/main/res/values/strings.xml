@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--颜色-->
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="rightliunpressd" id="rightliunpressd">#254161</drawable>
+    <drawable name="rightlipressd" id="rightlipressd">#0f2740</drawable>
+    <drawable name="dark">#000000</drawable>
+    <drawable name="red">#FF0000</drawable>
+    <drawable name="gray">#efeff4</drawable>
+    <drawable name="maincolor">#02437e</drawable>
+    <drawable name="tapcolor">#17385e</drawable>
+    <drawable name="taplicolor">#1b739e</drawable>
+    <drawable name="timeandweather">#fec100</drawable>
+    <drawable name="choosecolor">#346193</drawable>
+    <drawable name="reallcolor">#94b4d4</drawable>
+    <drawable name="queqingcolor">#f9c500</drawable>
+    <drawable name="rightmaincolor">#17385e</drawable>
+    <drawable name="teachername">#d8fd37</drawable>
+    <!--文字-->
+    <string name="app_name">班牌程序</string>
+    <!--文字大小-->
+    <dimen name="x10">10sp</dimen>
+    <dimen name="x15">15sp</dimen>
+    <dimen name="x20">20sp</dimen>
+    <dimen name="x25">25sp</dimen>
+    <dimen name="x30">30sp</dimen>
+    <dimen name="x35">35sp</dimen>
+    <dimen name="x40">40sp</dimen>
+    <dimen name="x45">45sp</dimen>
+
+</resources>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bjw.ComAssistant"
+    android:versionCode="1"
+    android:versionName="1.01" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.bjw.MainFragment.ChooseLabBeforeLoginAc"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bjw.MainFragment.LoadingActivity" />
+        <activity android:name="com.bjw.ComAssistant.ComAssistantActivity" />
+        <activity
+            android:name="com.bjw.MainFragment.MainFragment"
+            android:icon="@drawable/logo" />
+        <activity android:name="com.bjw.LabDeviceInfo.LabDeviceOperate" />
+        <activity android:name="com.bjw.LabDeviceInfo.LabDeviceVideo" />
+
+        <service android:name="com.bjw.Service.SerialService" />
+        <service android:name="com.bjw.Service.TimerService" />
+        <service android:name="com.bjw.Service.ChangeTimeService" />
+        <service android:name="com.bjw.Service.LoadingAndGetInformationService" />
+        <service android:name="com.bjw.Service.GetCardInfoService" />
+        <service android:name="com.bjw.Service.CheckInternetService" />
+        <service android:name="com.bjw.Service.DownLoadService" />
+    </application>
+
+</manifest>
