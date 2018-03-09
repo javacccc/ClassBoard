@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
     }

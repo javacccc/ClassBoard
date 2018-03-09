@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_loading_test.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\layout-land\\activity_loading_test.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_loading_test.xml",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout-land\\activity_loading_test.xml"
     }

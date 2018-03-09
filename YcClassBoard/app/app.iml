@@ -89,6 +89,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />
@@ -103,12 +104,16 @@
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="butterknife-annotations-8.8.1" level="project" />
-    <orderEntry type="library" exported="" name="support-compat-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="gson-1.6" level="project" />
-    <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="MPAndroidChart-v3.0.3" level="project" />
-    <orderEntry type="library" exported="" name="glide-3.6.1" level="project" />
     <orderEntry type="library" exported="" name="android-support-v7-appcompat" level="project" />
+    <orderEntry type="library" exported="" name="support-compat-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="support-media-compat-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="support-core-ui-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="glide-3.6.1" level="project" />
+    <orderEntry type="library" exported="" name="support-core-utils-25.3.0" level="project" />
+    <orderEntry type="library" exported="" name="support-fragment-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="butterknife-8.8.1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-25.3.0" level="project" />
     <orderEntry type="module" module-name="vitamio" exported="" />

@@ -26,11 +26,11 @@
         </intent-filter>
     </receiver>
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.0" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:icon="@drawable/logo"
