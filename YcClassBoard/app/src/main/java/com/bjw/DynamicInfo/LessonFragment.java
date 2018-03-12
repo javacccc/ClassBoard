@@ -29,7 +29,7 @@ import android.widget.Toast;
 
 import com.bjw.Adapter.LessonBelowAdapter;
 import com.bjw.Common.DatebaseHelper;
-import com.bjw.Common.ExportToCSV;
+import com.bjw.Common.FileOperateUtils;
 import com.bjw.Common.GetCurrentTime;
 import com.bjw.R;
 
@@ -55,9 +55,9 @@ public class LessonFragment extends Fragment {
     private int present_num=0,obsent_num=0;//计数
     TextView chooseNum,presentNum,obsentNum;
     ListView listView;
-    TextView coursename,coursenum,courseperiod,courseteacher;
-    TextView studentNameTv,cardnumberTv,AfterClassTv;
-    LinearLayout llpresent,llafterschool,llcardandname;
+    TextView courseName,courseNum,coursePeriod,courseTeacher;
+    TextView idStudentName,idCardNumber,idAfterClassTv;
+    LinearLayout idLlPresent,idLlAfterschool,idLlCardandname;
     LessonBelowAdapter lessonBelowAdapter;
     int flag=0;//用来判断当前的刷卡用户是否在该班里面0表示当前的不是改版机学生，1表示是该班学生且没有读过，2表示已读过
     int indexoftemp;//记录得到卡号与获取的数据相同数据的下标
@@ -75,10 +75,10 @@ public class LessonFragment extends Fragment {
             int i = Integer.parseInt(msg.obj.toString());
             if(i==1314520)
             {
-                coursename.setText(defaultcourse);
-                coursenum.setText(defaultcoursenumber);
-                courseperiod.setText("共有"+0+"学时");
-                courseteacher.setText(defaultteacher);
+                courseName.setText(defaultcourse);
+                courseNum.setText(defaultcoursenumber);
+                coursePeriod.setText("共有"+0+"学时");
+                courseTeacher.setText(defaultteacher);
                 chooseNum.setText(0+"");
                 presentNum.setText(0+"");
                 obsentNum.setText(0+"");
@@ -87,16 +87,16 @@ public class LessonFragment extends Fragment {
                 present_num=0;
             }
             else {
-                coursename.setText(lessonTables.get(i).getCourse_name());
-                coursenum.setText(lessonTables.get(i).getCourse_number());
+                courseName.setText(lessonTables.get(i).getCourse_name());
+                courseNum.setText(lessonTables.get(i).getCourse_number());
                 if(lessonTables.get(i).getTotal_hour()==0)
                 {
-                    courseperiod.setText("未知");
+                    coursePeriod.setText("未知");
                 }
                 else {
-                    courseperiod.setText("共有" + lessonTables.get(i).getTotal_hour() + "学时");
+                    coursePeriod.setText("共有" + lessonTables.get(i).getTotal_hour() + "学时");
                 }
-                courseteacher.setText(lessonTables.get(i).getCourse_teacher_name());
+                courseTeacher.setText(lessonTables.get(i).getCourse_teacher_name());
                 chooseNum.setText(lessonTables.get(i).getCourse_present_people() + "");
                 if(obsent_num==0) {
                     //判断当数据恢复的时候将相应的数据进行更新
@@ -179,12 +179,12 @@ public class LessonFragment extends Fragment {
 //        当整个实验室没有课程的时候
         if(lessonTables.size()==0)
         {
-            llcardandname.setVisibility(View.GONE);
-            llafterschool.setVisibility(View.VISIBLE);
-            AfterClassTv.setText("今日无课程");
+            idLlCardandname.setVisibility(View.GONE);
+            idLlAfterschool.setVisibility(View.VISIBLE);
+            idAfterClassTv.setText("今日无课程");
         }
 //       查看已经刷卡的人
-        llpresent.setOnClickListener(new View.OnClickListener() {
+        idLlPresent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String test="";
@@ -204,17 +204,17 @@ public class LessonFragment extends Fragment {
         obsentNum = (TextView) getActivity().findViewById(R.id.obsent_num);
         chooseNum = (TextView) getActivity().findViewById(R.id.choose_num);
         listView=(ListView)getActivity().findViewById(R.id.listviewforlesson);
-        coursename=(TextView)getActivity().findViewById(R.id.course_name);
-        coursenum=(TextView)getActivity().findViewById(R.id.course_num);
-        courseperiod=(TextView)getActivity().findViewById(R.id.course_period);
-        courseteacher=(TextView)getActivity().findViewById(R.id.course_teacher);
-        studentNameTv=(TextView)getActivity().findViewById(R.id.id_student_name);
-        cardnumberTv=(TextView)getActivity().findViewById(R.id.id_card_number);
-        llpresent=(LinearLayout)getActivity().findViewById(R.id.id_ll_present);
-        llafterschool=(LinearLayout)getActivity().findViewById(R.id.id_ll_afterschool);
-        llcardandname=(LinearLayout)getActivity().findViewById(R.id.id_ll_cardandname);
-        AfterClassTv=(TextView)getActivity().findViewById(R.id.id_afterClass_Tv);
-        llafterschool.setVisibility(View.GONE);
+        courseName=(TextView)getActivity().findViewById(R.id.course_name);
+        courseNum=(TextView)getActivity().findViewById(R.id.course_num);
+        coursePeriod=(TextView)getActivity().findViewById(R.id.course_period);
+        courseTeacher=(TextView)getActivity().findViewById(R.id.course_teacher);
+        idStudentName=(TextView)getActivity().findViewById(R.id.id_student_name);
+        idCardNumber=(TextView)getActivity().findViewById(R.id.id_card_number);
+        idLlPresent=(LinearLayout)getActivity().findViewById(R.id.id_ll_present);
+        idLlAfterschool=(LinearLayout)getActivity().findViewById(R.id.id_ll_afterschool);
+        idLlCardandname=(LinearLayout)getActivity().findViewById(R.id.id_ll_cardandname);
+        idAfterClassTv=(TextView)getActivity().findViewById(R.id.id_afterClass_Tv);
+        idLlAfterschool.setVisibility(View.GONE);
     }
     /*************************************************
      *@description： 注册得到卡号的广播
@@ -269,15 +269,14 @@ public class LessonFragment extends Fragment {
         @Override
         public void onReceive(Context context, Intent intent) {
             String cardNum = intent.getStringExtra("cardnum");
-
 //            new BigInteger("c01a2033", 16).toString();//将16进制转换为需要的10进制数
-//            cardnumberTv.setText(new BigInteger("c01a2033", 16).toString());
+//            idCardNumber.setText(new BigInteger("c01a2033", 16).toString());
             if (isAfterClassTime) {
                 Toast.makeText(getActivity(), "当前是下课时间，请勿刷卡", Toast.LENGTH_SHORT).show();
                 isAfterClassTime=false;
             }
             else {
-                cardnumberTv.setText(cardNum);
+                idCardNumber.setText(cardNum);
                 for (int i = 0; i < studentCards.size(); i++) {
                     if (cardNum.equals(studentCards.get(i).getCard_no())) {
                         if (studentCardsTemp.size() == 0) {//第一次不需要判断是否有读过的
@@ -302,15 +301,15 @@ public class LessonFragment extends Fragment {
                     }
                 }
                 if (flag == 0) {
-//                    cardnumberTv.setText("");
-                    studentNameTv.setText("你不是当前班级的学生");
+//                    idCardNumber.setText("");
+                    idStudentName.setText("你不是当前班级的学生");
                 } else if (flag == 2) {
-//                    cardnumberTv.setText("");
-                    studentNameTv.setText("已刷卡，请勿重复刷卡");
+//                    idCardNumber.setText("");
+                    idStudentName.setText("已刷卡，请勿重复刷卡");
                     flag = 0;
                 } else {
-                    cardnumberTv.setText(cardNum);
-                    studentNameTv.setText(studentCards.get(indexoftemp).getStudent_name());
+                    idCardNumber.setText(cardNum);
+                    idStudentName.setText(studentCards.get(indexoftemp).getStudent_name());
                     studentCardsTemp.add(studentCards.get(indexoftemp));//将刚才加入的数据加入到目前读取道卡号的信息
                     present_num++;
                     obsent_num--;
@@ -328,11 +327,9 @@ public class LessonFragment extends Fragment {
                     values.put("current_time", GetCurrentTime.getLongStringCurrentTime());
                     values.put("start_class", studentCards.get(indexoftemp).getStart_class());
                     values.put("end_class", studentCards.get(indexoftemp).getEnd_class());
-//                    for(int i=0;i<1000;i++) {
-                        db.insert("StudentCardTable", null, values);
-//                    }
+                    db.insert("StudentCardTable", null, values);
                     Cursor cursor = db.query("StudentCardTable", null, null, null, null, null, null);
-                    ExportToCSV.ExportToCSV(cursor, "保存已刷过得卡的卡号的文件.csv");
+                    FileOperateUtils.ExportToCSV(cursor, "保存已刷过得卡的卡号的文件.csv");
                     cursor.close();
                 }
             }
@@ -377,18 +374,18 @@ public class LessonFragment extends Fragment {
             String Warnning=intent.getStringExtra("Warnning");
             if(Warnning.equals("当前是下课时间，请勿刷卡")) {
                 isAfterClassTime = true;
-                llcardandname.setVisibility(View.GONE);
-                llafterschool.setVisibility(View.VISIBLE);
+                idLlCardandname.setVisibility(View.GONE);
+                idLlAfterschool.setVisibility(View.VISIBLE);
             }
             else if(Warnning.equals("上课了，可以刷卡"))
             {
                 isAfterClassTime = false;
-                llcardandname.setVisibility(View.VISIBLE);
-                llafterschool.setVisibility(View.GONE);
-                cardnumberTv.setText("");
-                studentNameTv.setText("");
+                idLlCardandname.setVisibility(View.VISIBLE);
+                idLlAfterschool.setVisibility(View.GONE);
+                idCardNumber.setText("");
+                idStudentName.setText("");
             }
-//            cardnumberTv.setText(Warnning);
+//            idCardNumber.setText(Warnning);
         }
     }
     /*************************************************

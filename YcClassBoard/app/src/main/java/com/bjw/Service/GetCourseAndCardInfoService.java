@@ -11,7 +11,7 @@ import android.os.Message;
 import android.util.Log;
 
 import com.bjw.Common.DatebaseHelper;
-import com.bjw.Common.ExportToCSV;
+import com.bjw.Common.FileOperateUtils;
 import com.bjw.Common.GetCurrentTime;
 import com.bjw.bean.LessonTable;
 import com.bjw.bean.StudentCard;
@@ -28,7 +28,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.bjw.Common.Connection.getConnection;
+import static com.bjw.Common.NetToolUtils.getConnection;
 import static com.bjw.Common.StaticConfig.FlagOfConnectTimeOut;
 import static com.bjw.Common.StaticConfig.IsRealData;
 import static com.bjw.Common.StaticConfig.LabID;
@@ -119,7 +119,7 @@ public class GetCourseAndCardInfoService extends Service {
                 c.close();
                 Cursor cursor =  db.query("LessonTable", null, null, null, null, null, null);
                 //将数据导出
-                ExportToCSV.ExportToCSV(cursor, "LessonTable.csv");
+                FileOperateUtils.ExportToCSV(cursor, "LessonTable.csv");
                 cursor.close();
                 flagForCourse=1;
 //                getALLCardInfoThread = new getALLCardInfoThread();
@@ -198,7 +198,7 @@ public class GetCourseAndCardInfoService extends Service {
                 db.insert("ALLDayStudentsCardTable", null, values);
 //                将卡号数据导出
                 Cursor cursorforSave =  db.query("ALLDayStudentsCardTable", null, null, null, null, null, null);
-                ExportToCSV.ExportToCSV(cursorforSave, "ALLDayStudentsCardTable.csv");
+                FileOperateUtils.ExportToCSV(cursorforSave, "ALLDayStudentsCardTable.csv");
                 cursorforSave.close();
             }
             //数据获取成功之后进入整个界面
@@ -717,7 +717,7 @@ public class GetCourseAndCardInfoService extends Service {
             db.insert("ALLDayStudentsCardTable", null, values);
         }
         Cursor cursorforSave =  db.query("ALLDayStudentsCardTable", null, null, null, null, null, null);
-        ExportToCSV.ExportToCSV(cursorforSave, "从服务器端取的所有学生卡号的文件.csv");
+        FileOperateUtils.ExportToCSV(cursorforSave, "从服务器端取的所有学生卡号的文件.csv");
     }
     public void initLesson()
     {
@@ -752,7 +752,7 @@ public class GetCourseAndCardInfoService extends Service {
                         db.insert("LessonTable", null, values);
                     }
                     Cursor cursor = db.query("LessonTable", null, null, null, null, null, null);
-                    ExportToCSV.ExportToCSV(cursor, "实验室课程文件.csv");
+                    FileOperateUtils.ExportToCSV(cursor, "实验室课程文件.csv");
                     //将数据写入到全局变量来渗透到整个项目里面
                     lessonTables.add(lessonTable1);
                     lessonTables.add(lessonTable2);

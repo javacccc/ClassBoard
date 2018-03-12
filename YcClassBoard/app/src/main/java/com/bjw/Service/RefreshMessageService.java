@@ -18,7 +18,7 @@ import org.json.JSONObject;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static com.bjw.Common.Connection.getConnection;
+import static com.bjw.Common.NetToolUtils.getConnection;
 import static com.bjw.Common.StaticConfig.LabID;
 import static com.bjw.Common.StaticConfig.remoteUrl;
 import static com.bjw.DynamicInfo.MessageFragment.labMessageList;

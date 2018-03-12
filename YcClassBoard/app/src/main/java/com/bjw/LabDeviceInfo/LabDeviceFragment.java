@@ -39,7 +39,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-import static com.bjw.Common.Connection.getConnection;
+import static com.bjw.Common.NetToolUtils.getConnection;
 import static com.bjw.Common.StaticConfig.IsRealDataForDevice;
 import static com.bjw.Common.StaticConfig.LabID;
 import static com.bjw.Common.StaticConfig.TestVideoPath;

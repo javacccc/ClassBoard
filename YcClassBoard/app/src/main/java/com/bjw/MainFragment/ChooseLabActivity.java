@@ -21,6 +21,7 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import com.bjw.Common.FileOperateUtils;
 import com.bjw.R;
 import com.bjw.Service.UpdateVersionService;
 import com.bjw.bean.AllLabRoomInfo;
@@ -43,7 +44,7 @@ import java.util.Map;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.bjw.Common.Connection.getConnection;
+import static com.bjw.Common.NetToolUtils.getConnection;
 import static com.bjw.Common.StaticConfig.LabID;
 import static com.bjw.Common.StaticConfig.remoteUrl;
 
@@ -110,7 +111,6 @@ public class ChooseLabActivity extends Activity{
 //            检验版本更新
             CheckVersionUpdate();
             ButterKnife.bind(this);
-//            gview = (GridView) findViewById(R.id.gview);
             data_list = new ArrayList<Map<String, Object>>();
             initData();
             String [] from ={"image","text"};
@@ -134,30 +134,12 @@ public class ChooseLabActivity extends Activity{
             });
         }
         /*************************************************
-         *@description： 初始化实验室数据与界面
+         *@description： 初始化实验室选择界面
         *************************************************/
         public void initData()
         {
-            AllLabRoomInfo allLabRoomInfo1=new AllLabRoomInfo(895,R.drawable.a305_1,"A305");
-            AllLabRoomInfo allLabRoomInfo2=new AllLabRoomInfo(899,R.drawable.a308_1,"A308");
-            AllLabRoomInfo allLabRoomInfo3=new AllLabRoomInfo(900,R.drawable.a309_1,"A309");
-            AllLabRoomInfo allLabRoomInfo4=new AllLabRoomInfo(904,R.drawable.a312_1,"A312");
-            AllLabRoomInfo allLabRoomInfo5=new AllLabRoomInfo(902,R.drawable.a313_1,"A311/A313");
-            AllLabRoomInfo allLabRoomInfo6=new AllLabRoomInfo(905,R.drawable.a314_1,"A314");
-            AllLabRoomInfo allLabRoomInfo7=new AllLabRoomInfo(906,R.drawable.a315_1,"A315");
-            AllLabRoomInfo allLabRoomInfo8=new AllLabRoomInfo(918,R.drawable.a410e_1,"A410西");
-            AllLabRoomInfo allLabRoomInfo9=new AllLabRoomInfo(919,R.drawable.a410w_1,"A410东");
-            AllLabRoomInfo allLabRoomInfo10=new AllLabRoomInfo(921,R.drawable.a412_1,"A412");
-            allLabRoomInfoList.add(allLabRoomInfo1);
-            allLabRoomInfoList.add(allLabRoomInfo2);
-            allLabRoomInfoList.add(allLabRoomInfo3);
-            allLabRoomInfoList.add(allLabRoomInfo4);
-            allLabRoomInfoList.add(allLabRoomInfo5);
-            allLabRoomInfoList.add(allLabRoomInfo6);
-            allLabRoomInfoList.add(allLabRoomInfo7);
-            allLabRoomInfoList.add(allLabRoomInfo8);
-            allLabRoomInfoList.add(allLabRoomInfo9);
-            allLabRoomInfoList.add(allLabRoomInfo10);
+//           读取实验室列表数据（从excel文件里面读写）
+            allLabRoomInfoList= FileOperateUtils.readLabListExcel("lablist.xls",getBaseContext());
             data_list = new ArrayList<Map<String, Object>>();
             for(int i=0;i<allLabRoomInfoList.size();i++){
                 Map<String, Object> map = new HashMap<String, Object>();
@@ -229,21 +211,6 @@ public class ChooseLabActivity extends Activity{
             }
         }
     /*************************************************
-     *@description： 当数据更新的时候回到选择实验室的界面后
-     * 查看里面是否有数据SharePreference就直接进入里面
-     *************************************************/
-    @Override
-    protected void onResume() {
-        SharedPreferences  sp = getSharedPreferences("YCLABID", Context.MODE_PRIVATE);
-        LabID= sp.getInt("labId",0);
-        if(LabID!=0)
-        {
-            Intent intent10=new Intent(getBaseContext(),LoadingActivity.class);
-            startActivity(intent10);
-        }
-        super.onResume();
-    }
-    /*************************************************
      *@description： 注册接收播放本地的广播
      *************************************************/
     public void registerForUpdate()
@@ -269,13 +236,28 @@ public class ChooseLabActivity extends Activity{
     }
     /*************************************************
      *@description： 将下载的apk文件进行安装
-    *************************************************/
+     *************************************************/
     public void installApk(String path)
     {
         Intent intent1 = new Intent(Intent.ACTION_VIEW);
         intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent1.setDataAndType(Uri.parse("file://"+path),"application/vnd.android.package-archive");
         startActivity(intent1);
+    }
+    /*************************************************
+     *@description： 当数据更新的时候回到选择实验室的界面后
+     * 查看里面是否有数据SharePreference就直接进入里面
+     *************************************************/
+    @Override
+    protected void onResume() {
+        SharedPreferences  sp = getSharedPreferences("YCLABID", Context.MODE_PRIVATE);
+        LabID= sp.getInt("labId",0);
+        if(LabID!=0)
+        {
+            Intent intent10=new Intent(getBaseContext(),LoadingActivity.class);
+            startActivity(intent10);
+        }
+        super.onResume();
     }
     @Override
     public void onDestroy()

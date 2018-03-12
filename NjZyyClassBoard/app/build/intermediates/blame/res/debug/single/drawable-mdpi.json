@@ -12,8 +12,28 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-mdpi\\pause.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\play.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\play.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pause.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\pause.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\whiteline.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\whiteline.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pause.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\pause.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\blackline.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\blackline.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\playerimg.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\playerimg.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pause.png",

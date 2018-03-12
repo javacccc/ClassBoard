@@ -88,6 +88,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\num_bg.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\num_bg.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b201_2.png"
     },
@@ -116,6 +120,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_4.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_4.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b104_4.png"
     },
@@ -138,6 +146,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b108_4.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b211_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b211_4.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_4.png",
@@ -164,12 +176,12 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_3.png"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_2.png",
-        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a314_2.png"
-    },
-    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a312_2.png"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_2.png",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a314_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_1.png",
@@ -188,8 +200,24 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_2.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_3.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b104_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b108_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b105_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_1.png",
@@ -204,20 +232,28 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a308_2.png"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a309_4.png",
-        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a309_4.png"
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b201_1.png"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_2.png",
-        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a312_2.png"
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a309_4.png",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a309_4.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a313_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_2.png"
     },
     {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_2.png",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a312_2.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\filemanagermenubg_w.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\filemanagermenubg_w.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b108_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_1.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_1.png",
@@ -234,6 +270,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b210_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b104_1.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_1.png",
@@ -272,12 +312,24 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_1.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\cimage.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\cimage.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\cimage.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\cimage.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b210_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_2.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a314_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\defaultimg.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\defaultimg.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\back.png",
@@ -288,12 +340,20 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\num_bg.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b113_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_3.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b110_4.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_4.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b113_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b201_4.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a309_3.png",
@@ -308,16 +368,64 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\cimage.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b211_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b211_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b109_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b109_2.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\back.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\back.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b204_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b208_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b208_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b207_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b207_3.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\defaultimg.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\defaultimg.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\filemanagermenubg_w.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\filemanagermenubg_w.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b201_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b110_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b211_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b211_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b210_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_1.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_4.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a312_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b108_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b208_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b208_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_4.png",
@@ -332,12 +440,64 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b104_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b207_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b207_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b204_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b105_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b109_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b109_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b110_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b110_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_4.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a315_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a315_3.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a313_3.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b208_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b208_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b211_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b211_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b208_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b208_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b105_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_3.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b109_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b109_3.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_1.png",
@@ -348,6 +508,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_1.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b204_1.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\num_bg.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\num_bg.png"
     },
@@ -356,16 +520,40 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b211_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b204_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\back.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\back.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_4.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b210_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_3.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\domo_toolbar_bg.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\domo_toolbar_bg.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b113_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_2.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a309_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a309_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b210_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\domo_toolbar_bg.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\domo_toolbar_bg.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\back.png",
@@ -384,6 +572,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\scanframeline.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b109_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b109_1.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a314_1.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a314_1.png"
     },
@@ -392,8 +584,20 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_1.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b215_2.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\num_bg.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\num_bg.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b105_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b113_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_4.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_1.png",
@@ -410,6 +614,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\cimage.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\cimage.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b201_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b201_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a308_4.png",
@@ -432,8 +640,24 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b105_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b113_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b113_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b207_4.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b207_4.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b207_1.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b207_1.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b204_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b204_2.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b108_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b108_3.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b215_2.png",
@@ -456,6 +680,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b109_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b104_3.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b104_3.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b208_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b208_2.png"
     },
@@ -464,12 +692,20 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b210_4.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\scanframeline.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\scanframeline.png"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a313_2.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-ldpi\\a313_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b207_1.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b207_1.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\b110_2.png",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-ldpi\\b110_2.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\a312_3.png",

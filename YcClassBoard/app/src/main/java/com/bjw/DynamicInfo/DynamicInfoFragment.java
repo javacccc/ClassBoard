@@ -49,7 +49,7 @@
 //import io.vov.vitamio.widget.MediaController;
 //import io.vov.vitamio.widget.VideoView;
 //
-//import static com.bjw.Common.Connection.getConnection;
+//import static com.bjw.Common.NetToolUtils.getConnection;
 //import static com.bjw.Common.StaticConfig.AndroidId;
 //import static com.bjw.Common.StaticConfig.IP;
 //import static com.bjw.Common.StaticConfig.LabID;
@@ -426,7 +426,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bjw.Adapter.FragmentAdapter;
+import com.bjw.Common.FileOperateUtils;
 import com.bjw.R;
+import com.bjw.bean.ImageBean;
 import com.bjw.bean.LabRoomInfo;
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
@@ -447,7 +449,7 @@ import java.util.Map;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.bjw.Common.Connection.getConnection;
+import static com.bjw.Common.NetToolUtils.getConnection;
 import static com.bjw.Common.StaticConfig.AndroidId;
 import static com.bjw.Common.StaticConfig.IP;
 import static com.bjw.Common.StaticConfig.LabID;
@@ -633,159 +635,24 @@ public class DynamicInfoFragment extends Fragment {
     *************************************************/
     private void getLabRoomImage()
     {
-        //应急使用
-        //305
-        if(LabID==895) {
-            int a305_1 = R.drawable.a305_1;
-            Glide.with(getActivity()).load(a305_1).into(img);
-            int a305_2 = R.drawable.a305_2;
-            Glide.with(getActivity()).load(a305_2).into(underimg1);
-            int a305_3 = R.drawable.a305_3;
-            Glide.with(getActivity()).load(a305_3).into(underimg2);
-            int a305_4 = R.drawable.a305_4;
-            Glide.with(getActivity()).load(a305_4).into(underimg3);
-            map.put("img",R.drawable.a305_1+"") ;
-            map.put("underimg1",R.drawable.a305_2+"") ;
-            map.put("underimg2",R.drawable.a305_3+"" ) ;
-            map.put("underimg3",R.drawable.a305_4+"") ;
-        }
-        else if(LabID==899) {
-            //308
-            int a308_1 = R.drawable.a308_1;
-            Glide.with(getActivity()).load(a308_1).into(img);
-            int a308_2 = R.drawable.a308_2;
-            Glide.with(getActivity()).load(a308_2).into(underimg1);
-            int a308_3 = R.drawable.a308_3;
-            Glide.with(getActivity()).load(a308_3).into(underimg2);
-            int a308_4 = R.drawable.a308_4;
-            Glide.with(getActivity()).load(a308_4).into(underimg3);
-            map.put("img",R.drawable.a308_1+"") ;
-            map.put("underimg1",R.drawable.a308_2+"") ;
-            map.put("underimg2",R.drawable.a308_3+"" ) ;
-            map.put("underimg3",R.drawable.a308_4+"") ;
-        }
-        else if(LabID==900) {
-            //309
-            int a309_1 = R.drawable.a309_1;
-            Glide.with(getActivity()).load(a309_1).into(img);
-            int a309_2 = R.drawable.a309_2;
-            Glide.with(getActivity()).load(a309_2).into(underimg1);
-            int a309_3 = R.drawable.a309_3;
-            Glide.with(getActivity()).load(a309_3).into(underimg2);
-            int a309_4 = R.drawable.a309_4;
-            Glide.with(getActivity()).load(a309_4).into(underimg3);
-            map.put("img",R.drawable.a309_1+"") ;
-            map.put("underimg1",R.drawable.a309_2+"") ;
-            map.put("underimg2",R.drawable.a309_3+"" ) ;
-            map.put("underimg3",R.drawable.a309_4+"") ;
-        }
-        else if(LabID==904) {
-            //312
-            int a312_1 = R.drawable.a312_1;
-            Glide.with(getActivity()).load(a312_1).into(img);
-            int a312_2 = R.drawable.a312_2;
-            Glide.with(getActivity()).load(a312_2).into(underimg1);
-            int a312_3 = R.drawable.a312_3;
-            Glide.with(getActivity()).load(a312_3).into(underimg2);
-            int a312_4 = R.drawable.a312_4;
-            Glide.with(getActivity()).load(a312_4).into(underimg3);
-            map.put("img",R.drawable.a312_1+"") ;
-            map.put("underimg1",R.drawable.a312_2+"") ;
-            map.put("underimg2",R.drawable.a312_3+"" ) ;
-            map.put("underimg3",R.drawable.a312_4+"") ;
-        }
-        else if(LabID==903||LabID==902) {
-            //313  //311
-            int a313_1 = R.drawable.a313_1;
-            Glide.with(getActivity()).load(a313_1).into(img);
-            int a313_2 = R.drawable.a313_2;
-            Glide.with(getActivity()).load(a313_2).into(underimg1);
-            int a313_3 = R.drawable.a313_3;
-            Glide.with(getActivity()).load(a313_3).into(underimg2);
-            int a313_4 = R.drawable.a313_4;
-            Glide.with(getActivity()).load(a313_4).into(underimg3);
-            map.put("img",R.drawable.a313_1+"") ;
-            map.put("underimg1",R.drawable.a313_2+"") ;
-            map.put("underimg2",R.drawable.a313_3+"" ) ;
-            map.put("underimg3",R.drawable.a313_4+"") ;
-        }
-        else if(LabID==905) {
-            //314
-            int a314_1 = R.drawable.a314_1;
-            Glide.with(getActivity()).load(a314_1).into(img);
-            int a314_2 = R.drawable.a314_2;
-            Glide.with(getActivity()).load(a314_2).into(underimg1);
-            int a314_3 = R.drawable.a314_3;
-            Glide.with(getActivity()).load(a314_3).into(underimg2);
-            int a314_4 = R.drawable.a314_4;
-            Glide.with(getActivity()).load(a314_4).into(underimg3);
-            map.put("img",R.drawable.a314_1+"") ;
-            map.put("underimg1",R.drawable.a314_2+"") ;
-            map.put("underimg2",R.drawable.a314_3+"" ) ;
-            map.put("underimg3",R.drawable.a314_4+"") ;
-        }
-        else if(LabID==906) {
-            //315
-            int a315_1 = R.drawable.a315_1;
-            Glide.with(getActivity()).load(a315_1).into(img);
-            int a315_2 = R.drawable.a315_2;
-            Glide.with(getActivity()).load(a315_2).into(underimg1);
-            int a315_3 = R.drawable.a315_3;
-            Glide.with(getActivity()).load(a315_3).into(underimg2);
-            int a315_4 = R.drawable.a315_4;
-            Glide.with(getActivity()).load(a315_4).into(underimg3);
-            map.put("img",R.drawable.a315_1+"") ;
-            map.put("underimg1",R.drawable.a315_2+"") ;
-            map.put("underimg2",R.drawable.a315_3+"" ) ;
-            map.put("underimg3",R.drawable.a315_4+"") ;
-        }
-        else if(LabID== 919) {
-            //410东
-            int a410w_1 = R.drawable.a410w_1;
-            Glide.with(getActivity()).load(a410w_1).into(img);
-            int a410w_2 = R.drawable.a410w_2;
-            Glide.with(getActivity()).load(a410w_2).into(underimg1);
-            int a410w_3 = R.drawable.a410w_3;
-            Glide.with(getActivity()).load(a410w_3).into(underimg2);
-            int a410w_4 = R.drawable.a410w_4;
-            Glide.with(getActivity()).load(a410w_4).into(underimg3);
-            map.put("img",R.drawable.a410w_1+"") ;
-            map.put("underimg1",R.drawable.a410w_2+"") ;
-            map.put("underimg2",R.drawable.a410w_3+"" ) ;
-            map.put("underimg3",R.drawable.a410w_4+"") ;
-        }
-        else if(LabID==918) {
-//        //410西
-            int a410e_1 = R.drawable.a410e_1;
-            Glide.with(getActivity()).load(a410e_1).into(img);
-            int a410e_2 = R.drawable.a410e_2;
-            Glide.with(getActivity()).load(a410e_2).into(underimg1);
-            int a410e_3 = R.drawable.a410e_3;
-            Glide.with(getActivity()).load(a410e_3).into(underimg2);
-            int a410e_4 = R.drawable.a410e_4;
-            Glide.with(getActivity()).load(a410e_4).into(underimg3);
-            map.put("img",R.drawable.a410e_1+"") ;
-            map.put("underimg1",R.drawable.a410e_2+"") ;
-            map.put("underimg2",R.drawable.a410e_3+"" ) ;
-            map.put("underimg3",R.drawable.a410e_4+"") ;
-        }
-        else  if(LabID==921) {
-            //412
-            int a412_1 = R.drawable.a412_1;
-            Glide.with(getActivity()).load(a412_1).into(img);
-            int a412_2 = R.drawable.a412_2;
-            Glide.with(getActivity()).load(a412_2).into(underimg1);
-            int a412_3 = R.drawable.a412_3;
-            Glide.with(getActivity()).load(a412_3).into(underimg2);
-            int a412_4 = R.drawable.a412_4;
-            Glide.with(getActivity()).load(a412_4).into(underimg3);
-            map.put("img", a412_1 + "");
-            map.put("underimg1", R.drawable.a412_2 + "");
-            map.put("underimg2", R.drawable.a412_3 + "");
-            map.put("underimg3", R.drawable.a412_4 + "");
+        ArrayList<ImageBean>imageBeanList=new ArrayList<>();
+        imageBeanList= FileOperateUtils.readLabImageExcel("labimagelist.xls",getContext());
+        for(int i=0;i<imageBeanList.size();i++)
+        {
+            if(imageBeanList.get(i).getLabID()==LabID)
+            {
+                Glide.with(getActivity()).load(imageBeanList.get(i).getImage1()).into(img);
+                Glide.with(getActivity()).load(imageBeanList.get(i).getImage2()).into(underimg1);
+                Glide.with(getActivity()).load(imageBeanList.get(i).getImage3()).into(underimg2);
+                Glide.with(getActivity()).load(imageBeanList.get(i).getImage4()).into(underimg3);
+                map.put("img",imageBeanList.get(i).getImage1()+"") ;
+                map.put("underimg1",imageBeanList.get(i).getImage2()+"") ;
+                map.put("underimg2",imageBeanList.get(i).getImage3()+"" ) ;
+                map.put("underimg3",imageBeanList.get(i).getImage4()+"") ;
+                break;
+            }
         }
     }
-
     /*************************************************
      *@description： 得到IP地址
      *************************************************/

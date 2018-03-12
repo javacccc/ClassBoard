@@ -52,12 +52,12 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.jpeg",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\drawable-mdpi\\logo.jpeg"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -78,6 +78,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\testimg.jpeg",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\testimg.jpeg"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.jpeg",
@@ -128,6 +132,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\labimgdefault.jpeg",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\labimgdefault.jpeg"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -150,6 +158,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.jpeg",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\drawable-mdpi\\logo.jpeg"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\labimgdefault.jpeg",

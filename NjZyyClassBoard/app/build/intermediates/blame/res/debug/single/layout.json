@@ -12,6 +12,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_tab.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_tab.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_lesson_list_item.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grideview_item.xml",
@@ -56,8 +64,20 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_class_album.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_second.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_fourth.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_fourth.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_lesson.xml",
@@ -70,6 +90,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_right_message.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_lesson_list_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
@@ -132,12 +156,12 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_lesson_list_item.xml"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
-        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
-    },
-    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_fourth.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_fourth.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
@@ -152,6 +176,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_serial.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -162,6 +190,14 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_third.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_third.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\second_item.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_horizal_item.xml",
@@ -216,6 +252,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\grideview_item.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_lesson.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_lesson.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_tab.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
     },
@@ -226,6 +266,18 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_message_list_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_message_list_item.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_table_list_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_right_table_list_item.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grideview_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\grideview_item.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -246,6 +298,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_tab.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_tab.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_operation.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_operation.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_table_list_item.xml",
@@ -280,8 +336,16 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\YcClassBoard\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_message.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_message.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_dynamic.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_dynamic.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_tab.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_main_top_tab.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
@@ -296,8 +360,16 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_top_second.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_top_second.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_horizal_item.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\second_horizal_item.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -322,6 +394,10 @@
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_playvideo.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_album.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_class_album.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
@@ -396,6 +472,10 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_table.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_right_table.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -412,12 +492,24 @@
         "source": "F:\\ClassBoardWorkSpace\\Code\\njzyycb\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\fragment_top_third.xml"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_right_message_list_item.xml",
         "source": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_right_message_list_item.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_labroom_playvideo.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_labroom_playvideo.xml"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\NjZyyClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\Code\\yccb\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",

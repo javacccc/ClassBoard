@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.0_c46f9b67c7bec41ba880c4bf53cf19007c3f6faa.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -21,21 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\gson-1.6.jar"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
-        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\gson-1.6_86d84d0b7ce0d7e7ada768809c74230098acf11a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\glide-3.6.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
-        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\glide-3.6.1_e2a10f44a71530279858e66c74340e1b4c914431.jar" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.0_4d200bf0db143f7505e135b588f3b44a7a16d2b0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,21 +48,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.0_24102e0d859f19f0069d2a1013b99fc56ced76c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.0_08fcea29afb8f052759f629ccbf487f98edd084e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\android-support-v7-appcompat.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
         <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_f8ea361d26f098ad48dd38740b7607e488a9592a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\gson-1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
-        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\gson-1.6_f4c9acb6e42180c965e9964690ab0a256f836a80.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,12 +120,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\libs\android-support-v7-appcompat.jar"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
-        <dex dex="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_de7acbd419c40be533572231658455a72dacb9d8.jar" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_d8cbc3e3adba8286bd34c7287efacf6cc92319cc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +138,78 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\build\generated\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\android-support-v4_5fccd6b3c4f05b9b489e96ffd937a1c69d2166c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\gson-1.6_86d84d0b7ce0d7e7ada768809c74230098acf11a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_4118ad60eab2e8eef649079a38d1c7b80cbfd711.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\glide-3.6.1_e2a10f44a71530279858e66c74340e1b4c914431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\gson-1.6_5c884c03212553d1436322ca2bb99120f14231b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.0_bb5c2aa405b1f3d21b49e5bca88672c3973eea60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\gson-1.6_f4c9acb6e42180c965e9964690ab0a256f836a80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
+        <dex dex="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_de7acbd419c40be533572231658455a72dacb9d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\ClassBoardWorkSpace\Code\njzyycb\NjZyyClassBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -138,12 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\build\generated\android-support-v4.jar"
+        jar="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\libs\glide-3.6.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
-        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\android-support-v4_5fccd6b3c4f05b9b489e96ffd937a1c69d2166c4.jar" />
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="F:\GitHubWorkspace\ClassBoard\NjZyyClassBoard\app\build\intermediates\pre-dexed\debug\glide-3.6.1_469bcd1a743a223c5365424a4d985c2335f8c850.jar" />
     </item>
     <item
         is-multidex="false"
