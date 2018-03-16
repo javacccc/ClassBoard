@@ -131,9 +131,10 @@ public class LabReportFragment extends Fragment {
     public void onStart()
     {
         super.onStart();
+        findViewId();
         test test1=new test();
         test1.start();
-        findViewId();
+
         /*************************************************
          *@description： 去服务器端获取数据
         *************************************************/

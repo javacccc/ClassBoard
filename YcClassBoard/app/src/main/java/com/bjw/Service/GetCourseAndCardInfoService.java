@@ -186,16 +186,16 @@ public class GetCourseAndCardInfoService extends Service {
                     db.insert("ALLDayStudentsCardTable", null, values);
                 }
 //                测试卡号数据
-                StudentCard studentCard1 = new StudentCard("陈爱辉", "320049", "38F0ECC4", LabID, "0036022070",5,8);
-                ContentValues values = new ContentValues();
-                values.put("student_name", studentCard1.getStudent_name());
-                values.put("card_no", studentCard1.getCard_no());
-                values.put("course_number", studentCard1.getCourse_number());
-                values.put("student_number", studentCard1.getStudent_number());
-                values.put("lab_room_id", studentCard1.getLab_room_id());
-                values.put("start_class", studentCard1.getStart_class());
-                values.put("end_class", studentCard1.getEnd_class());
-                db.insert("ALLDayStudentsCardTable", null, values);
+//                StudentCard studentCard1 = new StudentCard("陈爱辉", "320049", "38F0ECC4", LabID, "0036022070",5,8);
+//                ContentValues values = new ContentValues();
+//                values.put("student_name", studentCard1.getStudent_name());
+//                values.put("card_no", studentCard1.getCard_no());
+//                values.put("course_number", studentCard1.getCourse_number());
+//                values.put("student_number", studentCard1.getStudent_number());
+//                values.put("lab_room_id", studentCard1.getLab_room_id());
+//                values.put("start_class", studentCard1.getStart_class());
+//                values.put("end_class", studentCard1.getEnd_class());
+//                db.insert("ALLDayStudentsCardTable", null, values);
 //                将卡号数据导出
                 Cursor cursorforSave =  db.query("ALLDayStudentsCardTable", null, null, null, null, null, null);
                 FileOperateUtils.ExportToCSV(cursorforSave, "ALLDayStudentsCardTable.csv");
@@ -724,10 +724,10 @@ public class GetCourseAndCardInfoService extends Service {
                    myDBHelper = new DatebaseHelper(getBaseContext(), databasename, null, databaseVersion);
                    final SQLiteDatabase db = myDBHelper.getReadableDatabase();
                             List<LessonTable> lessonTableforTest = new ArrayList<>();
-                    LessonTable lessonTable1 = new LessonTable(LabID, 36, 1, 2, 36, "大气污染原理", "TcN1", "图片地址", "张华", "6:00:00", "10:09:00", "测试班级1", "实验一", GetCurrentTime.getCurrentDate());
-                    LessonTable lessonTable2 = new LessonTable(LabID, 36, 3, 4, 46, "大气污染控制", "TcN2", "图片地址", "王明", "10:10:00", "11:40:00", "测试班级2", "实验二", GetCurrentTime.getCurrentDate());
-                    LessonTable lessonTable3 = new LessonTable(LabID, 36, 5, 6, 54, "大气污染治理", "TcN3", "图片地址", "李飞", "13:30:00", "15:41:00", "测试班级3", "实验三", GetCurrentTime.getCurrentDate());
-                    LessonTable lessonTable4 = new LessonTable(LabID, 36, 7, 8, 42, "节能减排", "TcN4", "图片地址", "李华", "15:43:00", "21:12:00", "测试班级4", "实验四", GetCurrentTime.getCurrentDate());
+                    LessonTable lessonTable1 = new LessonTable(LabID, 36, 1, 2, 36, "大气污染原理", "TcN1", "图片地址", "张华", "6:00:00", "7:09:00", "测试班级1", "实验一", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable2 = new LessonTable(LabID, 36, 3, 4, 46, "大气污染控制", "TcN2", "图片地址", "王明", "7:10:00", "7:40:00", "测试班级2", "实验二", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable3 = new LessonTable(LabID, 36, 5, 6, 54, "大气污染治理", "TcN3", "图片地址", "李飞", "7:50:00", "8:30:00", "测试班级3", "实验三", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable4 = new LessonTable(LabID, 36, 7, 8, 42, "节能减排", "TcN4", "图片地址", "李华", "8:40:00", "9:30:00", "测试班级4", "实验四", GetCurrentTime.getCurrentDate());
                     lessonTableforTest.add(lessonTable1);
                     lessonTableforTest.add(lessonTable2);
                     lessonTableforTest.add(lessonTable3);

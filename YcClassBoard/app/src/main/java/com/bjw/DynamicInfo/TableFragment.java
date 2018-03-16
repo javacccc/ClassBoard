@@ -41,17 +41,17 @@ public class TableFragment extends Fragment {
     public void onStart() {
         super.onStart();
         findViewId();
-        if (lists.size() == 0) {
-            ArrayList<String> list = new ArrayList<String>();
-            list.add("课程");
-            list.add("教师");
-            list.add("上课时间");
-            list.add("上课班级");
-            list.add("实验项目");
-            list.add("应到人数");
-            //上述是第一行
-            lists.add(list);
-            for (int i = 0; i < lessonTables.size(); i++) {
+        lists.clear();
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("课程");
+        list.add("教师");
+        list.add("上课时间");
+        list.add("上课班级");
+        list.add("实验项目");
+        list.add("应到人数");
+        //上述是第一行
+        lists.add(list);
+        for (int i = 0; i < lessonTables.size(); i++) {
 //                这就是相应的数据
                 list1 = new ArrayList<>();
                 list1.add(lessonTables.get(i).getCourse_name());
@@ -62,7 +62,6 @@ public class TableFragment extends Fragment {
                 list1.add("" + lessonTables.get(i).getCourse_present_people());
                 lists.add(list1);
             }
-        }
         LessonTableListAdapter adapter = new LessonTableListAdapter(getActivity(), lists);
         listView.setAdapter(adapter);
     }

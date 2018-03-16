@@ -18,7 +18,7 @@ import android.widget.Toast;
 import com.bjw.Adapter.FragmentAdapter;
 import com.bjw.Common.NetWorkStateReceiver;
 import com.bjw.DynamicInfo.DynamicInfoFragment;
-import com.bjw.Fourth.fourth;
+import com.bjw.LabRoomOrder.LabOrderFragment;
 import com.bjw.LabDeviceInfo.LabDeviceFragment;
 import com.bjw.LabReport.LabReportFragment;
 import com.bjw.R;
@@ -42,7 +42,7 @@ public class MainFragment extends FragmentActivity {
     private DynamicInfoFragment firstFragment;
     private LabDeviceFragment secondFragment;
     private LabReportFragment thirdFragment;
-    private fourth fourthFragment;
+    private LabOrderFragment labOrderFragmentFragment;
     Intent intentForGetnum,intentForTime,intentForChangeTime,
             intentforGetcardinfo,intentforReFreshMes;
 
@@ -113,7 +113,7 @@ public class MainFragment extends FragmentActivity {
                 mPageVp.setCurrentItem(3);
             }
         });
-                mPageVp.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mPageVp.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrollStateChanged(int state) {
             }
@@ -190,11 +190,11 @@ public class MainFragment extends FragmentActivity {
         firstFragment = new DynamicInfoFragment();
         secondFragment = new LabDeviceFragment();
         thirdFragment = new LabReportFragment();
-        fourthFragment = new fourth();
+        labOrderFragmentFragment = new LabOrderFragment();
         mFragmentList.add(firstFragment);
         mFragmentList.add(secondFragment);
         mFragmentList.add(thirdFragment);
-        mFragmentList.add(fourthFragment);
+        mFragmentList.add(labOrderFragmentFragment);
         mFragmentAdapter = new FragmentAdapter(
                 this.getSupportFragmentManager(), mFragmentList);
         mPageVp.setAdapter(mFragmentAdapter);

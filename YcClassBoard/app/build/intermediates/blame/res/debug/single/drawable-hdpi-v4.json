@@ -36,12 +36,20 @@
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a410w_2.jpg"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_tv.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_tv.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a410e_2.jpg",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a410e_2.jpg"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a305_4.jpg",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a305_4.jpg"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_ll.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_ll.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a410e_1.jpg",
@@ -60,8 +68,16 @@
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a412_1.jpg"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_tv3.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_tv3.xml"
+    },
+    {
         "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a412_1.jpg",
         "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a412_1.jpg"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_et.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_et.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a410w_4.jpg",
@@ -92,12 +108,20 @@
         "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a412_4.jpg"
     },
     {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_tv1.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_tv1.xml"
+    },
+    {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a305_3.jpg",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a305_3.jpg"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a412_2.jpg",
         "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a412_2.jpg"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_radius_tv2.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\shape_radius_tv2.xml"
     },
     {
         "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a410e_4.jpg",
@@ -110,6 +134,10 @@
     {
         "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a305_2.jpg",
         "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\a305_2.jpg"
+    },
+    {
+        "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_pressed.xml",
+        "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\drawable-hdpi\\btn_pressed.xml"
     },
     {
         "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a410w_1.jpg",

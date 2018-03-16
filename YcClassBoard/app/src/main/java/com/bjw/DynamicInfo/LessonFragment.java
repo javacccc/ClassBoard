@@ -59,11 +59,13 @@ public class LessonFragment extends Fragment {
     TextView idStudentName,idCardNumber,idAfterClassTv;
     LinearLayout idLlPresent,idLlAfterschool,idLlCardandname;
     LessonBelowAdapter lessonBelowAdapter;
-    int flag=0;//用来判断当前的刷卡用户是否在该班里面0表示当前的不是改版机学生，1表示是该班学生且没有读过，2表示已读过
+    int flag=0;//用来判断当前的刷卡用户是否在该班里面0表示当前的不是该班级学生，1表示是该班学生且没有读过，2表示已读过
     int indexoftemp;//记录得到卡号与获取的数据相同数据的下标
     private DatebaseHelper myDBHelper;  //本地数据库的帮助者
     private int numFromSQToupdate=0;//数据恢复的时候用来实现相应的数据库里面的信息
     private boolean isAfterClassTime=false;//数据恢复的时候用来实现相应的数据库里面的信息
+
+//    private List<LessonTable>lessonTableList;
 
 
     /*************************************************
@@ -87,32 +89,87 @@ public class LessonFragment extends Fragment {
                 present_num=0;
             }
             else {
-                courseName.setText(lessonTables.get(i).getCourse_name());
-                courseNum.setText(lessonTables.get(i).getCourse_number());
-                if(lessonTables.get(i).getTotal_hour()==0)
-                {
-                    coursePeriod.setText("未知");
+
+
+
+//                lessonTableList.clear();
+//                //        从数据库里面读取相应的数据
+//                DatebaseHelper myDBHelper;
+//                myDBHelper = new DatebaseHelper(getActivity(), databasename, null, databaseVersion);
+//                final SQLiteDatabase db = myDBHelper.getReadableDatabase();
+//                Cursor cursor = db.query("LessonTable", null, null, null, null, null, null);
+//                while (cursor.moveToNext())
+//                {
+//                    int lab_room_id = cursor.getInt(cursor.getColumnIndex("lab_room_id"));
+//                    int course_present_people = cursor.getInt(cursor.getColumnIndex("course_present_people"));
+//                    int start_class = cursor.getInt(cursor.getColumnIndex("start_class"));
+//                    int end_class = cursor.getInt(cursor.getColumnIndex("end_class"));
+//                    int total_hour = cursor.getInt(cursor.getColumnIndex("total_hour"));
+//                    String course_name = cursor.getString(cursor.getColumnIndex("course_name"));
+//                    String course_number = cursor.getString(cursor.getColumnIndex("course_number"));
+//                    String course_image_url = cursor.getString(cursor.getColumnIndex("course_image_url"));
+//                    String course_teacher_name = cursor.getString(cursor.getColumnIndex("course_teacher_name"));
+//                    String course_beginning_time = cursor.getString(cursor.getColumnIndex("course_beginning_time"));
+//                    String course_ending_time = cursor.getString(cursor.getColumnIndex("course_ending_time"));
+//                    String classes_number = cursor.getString(cursor.getColumnIndex("classes_number"));
+//                    String course_program = cursor.getString(cursor.getColumnIndex("course_program"));
+//                    String course_date = cursor.getString(cursor.getColumnIndex("course_date"));
+//                    lessonTableList.add(new LessonTable(lab_room_id,course_present_people,start_class,end_class,total_hour,course_name,course_number,course_image_url,course_teacher_name,course_beginning_time,course_ending_time,classes_number,course_program,course_date)) ;
+//                }
+//                cursor.close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            courseName.setText(lessonTables.get(i).getCourse_name());
+            courseNum.setText(lessonTables.get(i).getCourse_number());
+            if(lessonTables.get(i).getTotal_hour()==0)
+            {
+                coursePeriod.setText("未知");
+            }
+            else {
+                coursePeriod.setText("共有" + lessonTables.get(i).getTotal_hour() + "学时");
+            }
+            courseTeacher.setText(lessonTables.get(i).getCourse_teacher_name());
+            chooseNum.setText(lessonTables.get(i).getCourse_present_people() + "");
+            if(obsent_num==0) {
+                //判断当数据恢复的时候将相应的数据进行更新
+                if(studentCardsTemp.size()!=0){
+                    obsent_num = lessonTables.get(i).getCourse_present_people()-studentCardsTemp.size();
+                    obsentNum.setText(obsent_num+ "");
                 }
                 else {
-                    coursePeriod.setText("共有" + lessonTables.get(i).getTotal_hour() + "学时");
+                    obsent_num = lessonTables.get(i).getCourse_present_people();
+                    obsentNum.setText(lessonTables.get(i).getCourse_present_people() + "");
                 }
-                courseTeacher.setText(lessonTables.get(i).getCourse_teacher_name());
-                chooseNum.setText(lessonTables.get(i).getCourse_present_people() + "");
-                if(obsent_num==0) {
-                    //判断当数据恢复的时候将相应的数据进行更新
-                    if(studentCardsTemp.size()!=0){
-                        obsent_num = lessonTables.get(i).getCourse_present_people()-studentCardsTemp.size();
-                        obsentNum.setText(obsent_num+ "");
-                    }
-                    else {
-                        obsent_num = lessonTables.get(i).getCourse_present_people();
-                        obsentNum.setText(lessonTables.get(i).getCourse_present_people() + "");
-                    }
-                }
-                resetListItemcolor();
-                View view=listView.getChildAt(i);
+            }
+            resetListItemcolor();
+            View view=listView.getChildAt(i);
+            if(view!=null) {
                 view.setBackgroundColor(Color.RED);
             }
+        }
         }
     };
     /*************************************************
@@ -164,6 +221,44 @@ public class LessonFragment extends Fragment {
         presentNum.setText(present_num+"");
         obsentNum.setText(obsent_num+"");
         List<Map<String, Object>> list = new ArrayList<Map<String,Object>>() ;
+
+
+
+
+//        lessonTableList=new ArrayList<>();
+
+
+
+//        从数据库里面读取相应的数据
+//        DatebaseHelper myDBHelper;
+//        myDBHelper = new DatebaseHelper(getActivity(), databasename, null, databaseVersion);
+//        final SQLiteDatabase db = myDBHelper.getReadableDatabase();
+//        Cursor cursor = db.query("LessonTable", null, null, null, null, null, null);
+//        while (cursor.moveToNext())
+//        {
+//                int lab_room_id = cursor.getInt(cursor.getColumnIndex("lab_room_id"));
+//                int course_present_people = cursor.getInt(cursor.getColumnIndex("course_present_people"));
+//                int start_class = cursor.getInt(cursor.getColumnIndex("start_class"));
+//                int end_class = cursor.getInt(cursor.getColumnIndex("end_class"));
+//                int total_hour = cursor.getInt(cursor.getColumnIndex("total_hour"));
+//                String course_name = cursor.getString(cursor.getColumnIndex("course_name"));
+//                String course_number = cursor.getString(cursor.getColumnIndex("course_number"));
+//                String course_image_url = cursor.getString(cursor.getColumnIndex("course_image_url"));
+//                String course_teacher_name = cursor.getString(cursor.getColumnIndex("course_teacher_name"));
+//                String course_beginning_time = cursor.getString(cursor.getColumnIndex("course_beginning_time"));
+//                String course_ending_time = cursor.getString(cursor.getColumnIndex("course_ending_time"));
+//                String classes_number = cursor.getString(cursor.getColumnIndex("classes_number"));
+//                String course_program = cursor.getString(cursor.getColumnIndex("course_program"));
+//                String course_date = cursor.getString(cursor.getColumnIndex("course_date"));
+//            lessonTableList.add(new LessonTable(lab_room_id,course_present_people,start_class,end_class,total_hour,course_name,course_number,course_image_url,course_teacher_name,course_beginning_time,course_ending_time,classes_number,course_program,course_date)) ;
+//        }
+//        cursor.close();
+
+
+
+
+
+
         for(int i=0;i<lessonTables.size();i++){
             Map<String,Object> map = new HashMap<String,Object>() ;
             map.put("siple_tv1", lessonTables.get(i).getStart_class()+"-"+lessonTables.get(i).getEnd_class()+"节") ;

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <!--上方的第一层-->
+   <!--<LinearLayout-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:weightSum="10"-->
+       <!--android:orientation="horizontal">-->
+
+
+       <!--左边1的布局-->
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="3"
+          android:orientation="vertical"
+          android:weightSum="10">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2"
+              android:layout_marginLeft="40sp"
+              android:orientation="vertical"
+              android:background="@drawable/shape_radius_ll">
+          <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:textColor="@color/red"
+          android:text="大气控制实验室"
+          android:textSize="@dimen/x30"
+          android:gravity="center_horizontal|bottom" />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:textColor="@color/red"
+              android:text="------------104"
+              android:textSize="@dimen/x30"
+              android:gravity="center_horizontal"
+              />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="8"
+              android:layout_marginLeft="30sp"
+              android:orientation="vertical"
+              android:weightSum="10">
+              <ImageView
+                  android:layout_height="0dp"
+                  android:layout_width="match_parent"
+                  android:layout_weight="5"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/a412_1"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="5"
+                  android:layout_marginTop="@dimen/x15"
+                  android:textSize="20sp"
+                  android:textColor="@color/white"
+                  android:text="\t\t打仗的很多时候，对战双方无所不用其极，会发生很多情况。说不定，就会有一些邪门的事情发生。古有茅山道士撒豆成兵，姜子牙招来天兵天将，诸葛亮借东风，这些奇怪的事情可能是杜撰，但不能否认，其很有可能真实存在。
+而在古代如此多的战争中，在这些个奇门遁甲当中，最让人不寒而栗，也最令人费解的，莫过于阴兵了。阴兵是什么？顾名思义，阴间的兵，不是跟我们同一个物种了。阴兵是怎么来的？这就有的说了，有人说阴兵是有些地方发生大规模死亡的时候，冤魂不散聚集到一起，成为了阴兵，也有人说阴兵是有心计的人故意像制造傀儡一样制炼出来的。"
+                  />
+          </LinearLayout>
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <!--中间两个布局，包括三个表格-->
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="3.5"
+          android:weightSum="10"
+          android:orientation="vertical"
+          >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2"
+              android:layout_margin="@dimen/x10"
+              android:orientation="horizontal"
+
+              >
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:layout_margin="@dimen/x10"
+                  android:orientation="vertical"
+                  android:background="@drawable/shape_radius_ll"
+                  >
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="当前日期"
+                      android:layout_marginLeft="@dimen/x10"
+                      android:layout_marginTop="@dimen/x15"
+                      android:paddingTop="@dimen/x10"
+                      android:paddingBottom="@dimen/x10"
+                      android:paddingLeft="@dimen/x20"
+                      android:paddingRight="@dimen/x20"
+                      android:textColor="@color/white"
+                      android:textSize="@dimen/x15"
+                      android:background="@drawable/shape_radius_tv"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_marginTop="@dimen/x20"
+                      android:layout_weight="1"
+                      android:text="11:01:14 2018-03-15 星期一"
+                      android:textSize="@dimen/x20"
+                      android:gravity="center_horizontal"
+                      android:textColor="@color/dark"/>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:layout_margin="@dimen/x10"
+                  android:background="@drawable/shape_radius_ll"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="预约节次"
+                      android:layout_marginLeft="@dimen/x10"
+                      android:layout_marginTop="@dimen/x15"
+                      android:paddingTop="@dimen/x10"
+                      android:paddingBottom="@dimen/x10"
+                      android:paddingLeft="@dimen/x20"
+                      android:paddingRight="@dimen/x20"
+                      android:textColor="@color/white"
+                      android:textSize="@dimen/x15"
+                      android:background="@drawable/shape_radius_tv1"/>
+                  <Spinner
+                      android:layout_margin="@dimen/x20"
+                      android:layout_width="match_parent"
+                      android:layout_height="40sp"
+                      android:entries="@array/sections"
+                      android:background="@color/blue"
+                      />
+              </LinearLayout>
+          </LinearLayout>
+          <!--第一个表格-->
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2.66"
+              android:orientation="horizontal"
+              android:layout_marginTop="1.5sp"
+              android:gravity="center"
+              android:background="@color/white"
+              >
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical" >
+                  <View style="@style/horizontal_layout"/>
+                  <View style="@style/horizontal_layout"/>
+                  <ListView
+                      android:id="@+id/listview1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:cacheColorHint="#00000000"
+                      android:divider="@drawable/scanframeline"
+                      />
+                  <View style="@style/horizontal_layout"/>
+              </LinearLayout>
+              <View style="@style/vertical_layout"/>
+          </LinearLayout>
+          <!--第二个表格-->
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_marginTop="@dimen/x10"
+              android:layout_height="0dp"
+              android:layout_weight="2.66"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:background="@color/white"
+              >
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical" >
+                  <View style="@style/horizontal_layout"/>
+                  <View style="@style/horizontal_layout"/>
+                  <ListView
+                      android:id="@+id/listview2"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:cacheColorHint="#00000000"
+                      android:divider="@drawable/scanframeline"
+                      />
+                  <View style="@style/horizontal_layout"/>
+              </LinearLayout>
+              <View style="@style/vertical_layout"/>
+          </LinearLayout>
+          <!--第三个表格-->
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_marginTop="@dimen/x10"
+              android:layout_height="0dp"
+              android:layout_weight="2.66"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:background="@color/white"
+              >
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical" >
+                  <View style="@style/horizontal_layout"/>
+                  <View style="@style/horizontal_layout"/>
+                  <ListView
+                      android:id="@+id/listview3"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:cacheColorHint="#00000000"
+                      android:divider="@drawable/scanframeline"
+                      />
+                  <View style="@style/horizontal_layout"/>
+              </LinearLayout>
+              <View style="@style/vertical_layout"/>
+          </LinearLayout>
+      </LinearLayout>
+
+
+
+<!--最右边两个的布局包括折线图-->
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="3.5"
+           android:weightSum="10"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="2"
+               android:layout_margin="10sp"
+               android:orientation="horizontal"
+               >
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_margin="@dimen/x10"
+                   android:orientation="vertical"
+                   android:background="@drawable/shape_radius_ll"
+                   >
+                   <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="预约内容"
+                   android:layout_marginLeft="@dimen/x10"
+                   android:layout_marginTop="@dimen/x15"
+                   android:paddingTop="@dimen/x10"
+                   android:paddingBottom="@dimen/x10"
+                   android:paddingLeft="@dimen/x20"
+                   android:paddingRight="@dimen/x20"
+                   android:textColor="@color/white"
+                   android:textSize="@dimen/x15"
+                   android:background="@drawable/shape_radius_tv2"/>
+                   <EditText
+                       android:layout_margin="@dimen/x20"
+                       android:layout_width="match_parent"
+                       android:layout_height="40sp"
+                       android:textSize="@dimen/x20"
+                       android:textColorHint="@color/gray"
+                       android:textColor="@color/dark"
+                       android:hint="默认为临时预约"
+                       android:background="@drawable/shape_radius_et"
+                       />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_margin="@dimen/x10"
+                   android:background="@drawable/shape_radius_ll"
+                   android:orientation="vertical">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="是否提交"
+                       android:layout_marginLeft="@dimen/x10"
+                       android:layout_marginTop="@dimen/x15"
+                       android:paddingTop="@dimen/x10"
+                       android:paddingBottom="@dimen/x10"
+                       android:paddingLeft="@dimen/x20"
+                       android:paddingRight="@dimen/x20"
+                       android:textColor="@color/white"
+                       android:textSize="@dimen/x15"
+                       android:background="@drawable/shape_radius_tv3"/>
+                   <Button
+                       android:id="@+id/bt_submit"
+                       android:layout_margin="@dimen/x15"
+                       android:layout_width="wrap_content"
+                       android:layout_gravity="center"
+                       android:layout_height="40sp"
+                       android:textSize="@dimen/x20"
+                       android:text="提   交"
+                       android:background="@drawable/btn_pressed"
+                       android:textColor="#4CAFAD"/>
+               </LinearLayout>
+           </LinearLayout>
+           <!--第一个折线图-->
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="2.66"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginLeft="10sp"
+               android:layout_marginRight="10sp"
+               android:background="@color/white"
+               >
+               <com.github.mikephil.charting.charts.LineChart
+                   android:id="@+id/chart1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+           <!--第二个折线图-->
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="2.66"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginLeft="10sp"
+               android:layout_marginRight="10sp"
+               android:layout_marginTop="@dimen/x10"
+               android:background="@color/white"
+
+               >
+               <com.github.mikephil.charting.charts.LineChart
+                   android:id="@+id/chart2"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+           <!--第三个折线图-->
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="2.66"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginLeft="10sp"
+               android:layout_marginRight="10sp"
+               android:layout_marginTop="@dimen/x10"
+               android:background="@color/white"
+               >
+               <com.github.mikephil.charting.charts.LineChart
+                   android:id="@+id/chart3"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+
+</LinearLayout>

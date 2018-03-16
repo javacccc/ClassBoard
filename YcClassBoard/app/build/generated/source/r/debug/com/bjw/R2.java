@@ -17,6 +17,9 @@ public final class R2 {
 
     @ArrayRes
     public static final int baudrates_value = 0x7f050001;
+
+    @ArrayRes
+    public static final int sections = 0x7f050002;
   }
 
   public static final class attr {
@@ -36,49 +39,52 @@ public final class R2 {
     public static final int gray = 0x7f060003;
 
     @ColorRes
-    public static final int maincolor = 0x7f060004;
+    public static final int littlewhite = 0x7f060004;
 
     @ColorRes
-    public static final int mediacontroller_bg = 0x7f060005;
+    public static final int maincolor = 0x7f060005;
 
     @ColorRes
-    public static final int mediacontroller_bg_pressed = 0x7f060006;
+    public static final int mediacontroller_bg = 0x7f060006;
 
     @ColorRes
-    public static final int queqingcolor = 0x7f060007;
+    public static final int mediacontroller_bg_pressed = 0x7f060007;
 
     @ColorRes
-    public static final int reallcolor = 0x7f060008;
+    public static final int queqingcolor = 0x7f060008;
 
     @ColorRes
-    public static final int red = 0x7f060009;
+    public static final int reallcolor = 0x7f060009;
 
     @ColorRes
-    public static final int rightlipressd = 0x7f06000a;
+    public static final int red = 0x7f06000a;
 
     @ColorRes
-    public static final int rightliunpressd = 0x7f06000b;
+    public static final int rightlipressd = 0x7f06000b;
 
     @ColorRes
-    public static final int rightmaincolor = 0x7f06000c;
+    public static final int rightliunpressd = 0x7f06000c;
 
     @ColorRes
-    public static final int tapcolor = 0x7f06000d;
+    public static final int rightmaincolor = 0x7f06000d;
 
     @ColorRes
-    public static final int taplicolor = 0x7f06000e;
+    public static final int tapcolor = 0x7f06000e;
 
     @ColorRes
-    public static final int teachername = 0x7f06000f;
+    public static final int taplicolor = 0x7f06000f;
 
     @ColorRes
-    public static final int timeandweather = 0x7f060010;
+    public static final int teachername = 0x7f060010;
 
     @ColorRes
-    public static final int transparent = 0x7f060011;
+    public static final int timeandweather = 0x7f060011;
 
     @ColorRes
-    public static final int white = 0x7f060012;
+    public static final int transparent = 0x7f060012;
+
+    @ColorRes
+    public static final int white = 0x7f060013;
   }
 
   public static final class dimen {
@@ -244,7 +250,7 @@ public final class R2 {
     public static final int blackline = 0x7f02002c;
 
     @DrawableRes
-    public static final int book = 0x7f02002d;
+    public static final int btn_pressed = 0x7f02002d;
 
     @DrawableRes
     public static final int cimage = 0x7f02002e;
@@ -322,13 +328,25 @@ public final class R2 {
     public static final int scrubber_track_holo_dark = 0x7f020046;
 
     @DrawableRes
-    public static final int testimg = 0x7f020047;
+    public static final int shape_radius_et = 0x7f020047;
 
     @DrawableRes
-    public static final int tets = 0x7f020048;
+    public static final int shape_radius_ll = 0x7f020048;
 
     @DrawableRes
-    public static final int whiteline = 0x7f020049;
+    public static final int shape_radius_tv = 0x7f020049;
+
+    @DrawableRes
+    public static final int shape_radius_tv1 = 0x7f02004a;
+
+    @DrawableRes
+    public static final int shape_radius_tv2 = 0x7f02004b;
+
+    @DrawableRes
+    public static final int shape_radius_tv3 = 0x7f02004c;
+
+    @DrawableRes
+    public static final int whiteline = 0x7f02004d;
   }
 
   public static final class id {
@@ -366,37 +384,55 @@ public final class R2 {
     public static final int ToggleButtonCOMB = 0x7f0a001a;
 
     @IdRes
-    public static final int bt_operate = 0x7f0a0042;
+    public static final int bt_operate = 0x7f0a004b;
 
     @IdRes
-    public static final int bt_video = 0x7f0a0043;
+    public static final int bt_submit = 0x7f0a0042;
 
     @IdRes
-    public static final int change_right_tab = 0x7f0a002b;
+    public static final int bt_video = 0x7f0a004c;
 
     @IdRes
-    public static final int chart = 0x7f0a003c;
+    public static final int cancel = 0x7f0a0022;
+
+    @IdRes
+    public static final int change_right_tab = 0x7f0a002d;
+
+    @IdRes
+    public static final int chart = 0x7f0a003e;
+
+    @IdRes
+    public static final int chart1 = 0x7f0a0043;
+
+    @IdRes
+    public static final int chart2 = 0x7f0a0044;
+
+    @IdRes
+    public static final int chart3 = 0x7f0a0045;
 
     @IdRes
     public static final int checkBoxAutoClear = 0x7f0a0017;
 
     @IdRes
-    public static final int choose_num = 0x7f0a0030;
+    public static final int choose_num = 0x7f0a0032;
 
     @IdRes
-    public static final int course_name = 0x7f0a002c;
+    public static final int confirm = 0x7f0a0023;
 
     @IdRes
-    public static final int course_num = 0x7f0a002d;
+    public static final int course_name = 0x7f0a002e;
 
     @IdRes
-    public static final int course_period = 0x7f0a002e;
+    public static final int course_num = 0x7f0a002f;
 
     @IdRes
-    public static final int course_teacher = 0x7f0a002f;
+    public static final int course_period = 0x7f0a0030;
 
     @IdRes
-    public static final int datetime = 0x7f0a0029;
+    public static final int course_teacher = 0x7f0a0031;
+
+    @IdRes
+    public static final int datetime = 0x7f0a002b;
 
     @IdRes
     public static final int editTextLines = 0x7f0a0016;
@@ -405,46 +441,46 @@ public final class R2 {
     public static final int editTextRecDisp = 0x7f0a000f;
 
     @IdRes
-    public static final int first_fg = 0x7f0a005c;
+    public static final int first_fg = 0x7f0a0065;
 
     @IdRes
-    public static final int first_ll = 0x7f0a005b;
+    public static final int first_ll = 0x7f0a0064;
 
     @IdRes
-    public static final int fourth_fg = 0x7f0a0062;
+    public static final int fourth_fg = 0x7f0a006b;
 
     @IdRes
-    public static final int fourth_ll = 0x7f0a0061;
+    public static final int fourth_ll = 0x7f0a006a;
 
     @IdRes
     public static final int gview = 0x7f0a0000;
 
     @IdRes
-    public static final int id_afterClass_Tv = 0x7f0a0038;
+    public static final int id_afterClass_Tv = 0x7f0a003a;
 
     @IdRes
-    public static final int id_card_number = 0x7f0a0035;
+    public static final int id_card_number = 0x7f0a0037;
 
     @IdRes
-    public static final int id_ll_afterschool = 0x7f0a0037;
+    public static final int id_ll_afterschool = 0x7f0a0039;
 
     @IdRes
-    public static final int id_ll_cardandname = 0x7f0a0034;
+    public static final int id_ll_cardandname = 0x7f0a0036;
 
     @IdRes
-    public static final int id_ll_present = 0x7f0a0031;
+    public static final int id_ll_present = 0x7f0a0033;
 
     @IdRes
-    public static final int id_page_vp = 0x7f0a003d;
+    public static final int id_page_vp = 0x7f0a0046;
 
     @IdRes
-    public static final int id_student_name = 0x7f0a0036;
+    public static final int id_student_name = 0x7f0a0038;
 
     @IdRes
-    public static final int id_switch_tab_ll = 0x7f0a005a;
+    public static final int id_switch_tab_ll = 0x7f0a0063;
 
     @IdRes
-    public static final int id_tab_line_iv = 0x7f0a0063;
+    public static final int id_tab_line_iv = 0x7f0a006c;
 
     @IdRes
     public static final int im_bt_back = 0x7f0a0001;
@@ -453,13 +489,13 @@ public final class R2 {
     public static final int im_bt_back_video = 0x7f0a0002;
 
     @IdRes
-    public static final int image = 0x7f0a003e;
+    public static final int image = 0x7f0a0047;
 
     @IdRes
     public static final int iv = 0x7f0a0010;
 
     @IdRes
-    public static final int iv_logo = 0x7f0a0041;
+    public static final int iv_logo = 0x7f0a004a;
 
     @IdRes
     public static final int lab_device_img = 0x7f0a0003;
@@ -474,67 +510,76 @@ public final class R2 {
     public static final int lab_device_resource = 0x7f0a0005;
 
     @IdRes
-    public static final int lab_introduct = 0x7f0a0024;
+    public static final int lab_introduct = 0x7f0a0026;
 
     @IdRes
-    public static final int labname = 0x7f0a0023;
+    public static final int labname = 0x7f0a0025;
 
     @IdRes
-    public static final int lesson = 0x7f0a0057;
+    public static final int lesson = 0x7f0a0060;
 
     @IdRes
-    public static final int linear = 0x7f0a0022;
+    public static final int linear = 0x7f0a0024;
 
     @IdRes
-    public static final int listview = 0x7f0a003b;
+    public static final int listview = 0x7f0a003d;
 
     @IdRes
-    public static final int listviewforlesson = 0x7f0a0039;
+    public static final int listview1 = 0x7f0a003f;
 
     @IdRes
-    public static final int listviewformessage = 0x7f0a003a;
+    public static final int listview2 = 0x7f0a0040;
 
     @IdRes
-    public static final int mainimg = 0x7f0a0025;
+    public static final int listview3 = 0x7f0a0041;
 
     @IdRes
-    public static final int mediacontroller_file_name = 0x7f0a0056;
+    public static final int listviewforlesson = 0x7f0a003b;
 
     @IdRes
-    public static final int mediacontroller_play_pause = 0x7f0a0052;
+    public static final int listviewformessage = 0x7f0a003c;
 
     @IdRes
-    public static final int mediacontroller_seekbar = 0x7f0a0055;
+    public static final int mainimg = 0x7f0a0027;
 
     @IdRes
-    public static final int mediacontroller_time_current = 0x7f0a0053;
+    public static final int mediacontroller_file_name = 0x7f0a005f;
 
     @IdRes
-    public static final int mediacontroller_time_total = 0x7f0a0054;
+    public static final int mediacontroller_play_pause = 0x7f0a005b;
+
+    @IdRes
+    public static final int mediacontroller_seekbar = 0x7f0a005e;
+
+    @IdRes
+    public static final int mediacontroller_time_current = 0x7f0a005c;
+
+    @IdRes
+    public static final int mediacontroller_time_total = 0x7f0a005d;
 
     @IdRes
     public static final int mescontent = 0x7f0a001f;
 
     @IdRes
-    public static final int message = 0x7f0a0058;
+    public static final int message = 0x7f0a0061;
 
     @IdRes
-    public static final int messagecontent = 0x7f0a004a;
+    public static final int messagecontent = 0x7f0a0053;
 
     @IdRes
-    public static final int messagename = 0x7f0a0049;
+    public static final int messagename = 0x7f0a0052;
 
     @IdRes
-    public static final int messagetime = 0x7f0a004b;
+    public static final int messagetime = 0x7f0a0054;
 
     @IdRes
-    public static final int obsent_num = 0x7f0a0033;
+    public static final int obsent_num = 0x7f0a0035;
 
     @IdRes
     public static final int pauseorplay = 0x7f0a0009;
 
     @IdRes
-    public static final int present_num = 0x7f0a0032;
+    public static final int present_num = 0x7f0a0034;
 
     @IdRes
     public static final int radioButtonHex = 0x7f0a0015;
@@ -546,67 +591,67 @@ public final class R2 {
     public static final int radioGroupOption = 0x7f0a0013;
 
     @IdRes
-    public static final int second_fg = 0x7f0a005e;
+    public static final int second_fg = 0x7f0a0067;
 
     @IdRes
-    public static final int second_h_item = 0x7f0a0040;
+    public static final int second_h_item = 0x7f0a0049;
 
     @IdRes
-    public static final int second_ll = 0x7f0a005d;
+    public static final int second_ll = 0x7f0a0066;
 
     @IdRes
     public static final int seekbar = 0x7f0a000a;
 
     @IdRes
-    public static final int simple_adapter = 0x7f0a0044;
+    public static final int simple_adapter = 0x7f0a004d;
 
     @IdRes
-    public static final int siple_tv1 = 0x7f0a0045;
+    public static final int siple_tv1 = 0x7f0a004e;
 
     @IdRes
-    public static final int siple_tv2 = 0x7f0a0046;
+    public static final int siple_tv2 = 0x7f0a004f;
 
     @IdRes
-    public static final int siple_tv3 = 0x7f0a0047;
+    public static final int siple_tv3 = 0x7f0a0050;
 
     @IdRes
-    public static final int siple_tv4 = 0x7f0a0048;
+    public static final int siple_tv4 = 0x7f0a0051;
 
     @IdRes
     public static final int submitter = 0x7f0a0020;
 
     @IdRes
-    public static final int table = 0x7f0a0059;
+    public static final int table = 0x7f0a0062;
 
     @IdRes
-    public static final int text = 0x7f0a003f;
+    public static final int text = 0x7f0a0048;
 
     @IdRes
-    public static final int text1 = 0x7f0a004c;
+    public static final int text1 = 0x7f0a0055;
 
     @IdRes
-    public static final int text2 = 0x7f0a004d;
+    public static final int text2 = 0x7f0a0056;
 
     @IdRes
-    public static final int text3 = 0x7f0a004e;
+    public static final int text3 = 0x7f0a0057;
 
     @IdRes
-    public static final int text4 = 0x7f0a004f;
+    public static final int text4 = 0x7f0a0058;
 
     @IdRes
-    public static final int text5 = 0x7f0a0050;
+    public static final int text5 = 0x7f0a0059;
 
     @IdRes
-    public static final int text6 = 0x7f0a0051;
+    public static final int text6 = 0x7f0a005a;
 
     @IdRes
     public static final int textureview = 0x7f0a0007;
 
     @IdRes
-    public static final int third_fg = 0x7f0a0060;
+    public static final int third_fg = 0x7f0a0069;
 
     @IdRes
-    public static final int third_ll = 0x7f0a005f;
+    public static final int third_ll = 0x7f0a0068;
 
     @IdRes
     public static final int time = 0x7f0a0021;
@@ -618,19 +663,19 @@ public final class R2 {
     public static final int tvbelowloading = 0x7f0a000c;
 
     @IdRes
-    public static final int under_img1 = 0x7f0a0026;
+    public static final int under_img1 = 0x7f0a0028;
 
     @IdRes
-    public static final int under_img2 = 0x7f0a0027;
+    public static final int under_img2 = 0x7f0a0029;
 
     @IdRes
-    public static final int under_img3 = 0x7f0a0028;
+    public static final int under_img3 = 0x7f0a002a;
 
     @IdRes
     public static final int video_image = 0x7f0a0008;
 
     @IdRes
-    public static final int weathertime = 0x7f0a002a;
+    public static final int weathertime = 0x7f0a002c;
   }
 
   public static final class layout {
@@ -659,55 +704,58 @@ public final class R2 {
     public static final int dialog_messagedetails = 0x7f030007;
 
     @LayoutRes
-    public static final int fragment_devices = 0x7f030008;
+    public static final int dialog_selfdefine = 0x7f030008;
 
     @LayoutRes
-    public static final int fragment_dynamic = 0x7f030009;
+    public static final int fragment_devices = 0x7f030009;
 
     @LayoutRes
-    public static final int fragment_dynamic_lesson = 0x7f03000a;
+    public static final int fragment_dynamic = 0x7f03000a;
 
     @LayoutRes
-    public static final int fragment_dynamic_message = 0x7f03000b;
+    public static final int fragment_dynamic_lesson = 0x7f03000b;
 
     @LayoutRes
-    public static final int fragment_dynamic_table = 0x7f03000c;
+    public static final int fragment_dynamic_message = 0x7f03000c;
 
     @LayoutRes
-    public static final int fragment_fourth = 0x7f03000d;
+    public static final int fragment_dynamic_table = 0x7f03000d;
 
     @LayoutRes
     public static final int fragment_labreport = 0x7f03000e;
 
     @LayoutRes
-    public static final int fragment_main = 0x7f03000f;
+    public static final int fragment_labroom_order = 0x7f03000f;
 
     @LayoutRes
-    public static final int item_choose_labroom = 0x7f030010;
+    public static final int fragment_main = 0x7f030010;
 
     @LayoutRes
-    public static final int item_labroom_device_horizal = 0x7f030011;
+    public static final int item_choose_labroom = 0x7f030011;
 
     @LayoutRes
-    public static final int item_labroom_device_horizal_inner = 0x7f030012;
+    public static final int item_labroom_device_horizal = 0x7f030012;
 
     @LayoutRes
-    public static final int item_right_lesson_list = 0x7f030013;
+    public static final int item_labroom_device_horizal_inner = 0x7f030013;
 
     @LayoutRes
-    public static final int item_right_message_list = 0x7f030014;
+    public static final int item_right_lesson_list = 0x7f030014;
 
     @LayoutRes
-    public static final int item_right_table_list = 0x7f030015;
+    public static final int item_right_message_list = 0x7f030015;
 
     @LayoutRes
-    public static final int mediacontroller = 0x7f030016;
+    public static final int item_right_table_list = 0x7f030016;
 
     @LayoutRes
-    public static final int navbar_dynamic = 0x7f030017;
+    public static final int mediacontroller = 0x7f030017;
 
     @LayoutRes
-    public static final int navbar_main = 0x7f030018;
+    public static final int navbar_dynamic = 0x7f030018;
+
+    @LayoutRes
+    public static final int navbar_main = 0x7f030019;
   }
 
   public static final class string {
@@ -762,9 +810,12 @@ public final class R2 {
     public static final int MediaController_Text = 0x7f090001;
 
     @StyleRes
-    public static final int horizontal_layout = 0x7f090002;
+    public static final int NormalDialogStyle = 0x7f090002;
 
     @StyleRes
-    public static final int vertical_layout = 0x7f090003;
+    public static final int horizontal_layout = 0x7f090003;
+
+    @StyleRes
+    public static final int vertical_layout = 0x7f090004;
   }
 }

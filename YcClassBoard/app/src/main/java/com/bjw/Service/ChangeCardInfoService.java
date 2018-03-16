@@ -26,6 +26,7 @@ import static com.bjw.Common.StaticConfig.databasename;
 import static com.bjw.Common.StaticConfig.lessonTables;
 import static com.bjw.Common.StaticConfig.studentCards;
 import static com.bjw.Common.StaticConfig.studentCardsTemp;
+
 /*************************************************
  *@date：2017/11/17
  *@author：  zxj
@@ -107,6 +108,26 @@ public class ChangeCardInfoService extends Service {
                 //当前的时间与课表的时间进行比较，然后动态获取相应的卡号数据
                 String currentTime=hour+":"+minute1+":"+second1;
                 DateFormat df = new SimpleDateFormat("HH:mm:ss");
+
+
+                timeforbegins.clear();
+                timeforends.clear();
+                DateFormat df1 = new SimpleDateFormat("HH:mm:ss");
+                for(int i=0;i<lessonTables.size();i++)
+                {
+                    try {
+                        Date dateforbegin=df.parse(lessonTables.get(i).getCourse_beginning_time());
+                        Date dateforend=df.parse(lessonTables.get(i).getCourse_ending_time());
+                        timeforbegins.add(dateforbegin);
+                        timeforends.add(dateforend);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+
+
+                Log.e("zxj", "aaaaaaaaaaaaaaa" );
                 try {
                     Date currentTimeforDate = df.parse(currentTime);
                     for(int i=0;i<lessonTables.size();i++)

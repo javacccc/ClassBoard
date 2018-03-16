@@ -11,9 +11,9 @@ import java.util.List;
  *@description： 配置一些全局变量
 *************************************************/
 public  class StaticConfig {
-    public  static String remoteUrl="https://192.168.1.184:643/nucmylims/";
+//    public  static String remoteUrl="https://192.168.1.184:643/nucmylims/";
 //    public  static String remoteUrl="https://172.16.1.30:899/nucmylims/";
-//    public  static String remoteUrl="https://192.168.1.245:899/nucmylims/";
+    public  static String remoteUrl="https://192.168.1.245:899/nucmylims/";
     public  static int FlagOfConnectTimeOut=0;//标志当前的网络读取数据是否获取错误，获取错误的时候为1
     public  static int LabID=407;//实验室的ID
     public  static String TimeToUpdate="01:01:00";//动态更新数据操作的时间
