@@ -104,12 +104,12 @@
         "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\layout\\navbar_dynamic.xml"
     },
     {
-        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_devices_operation.xml",
-        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_devices_operation.xml"
-    },
-    {
         "merged": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_labroom_device_horizal.xml",
         "source": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\layout\\item_labroom_device_horizal.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_devices_operation.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_devices_operation.xml"
     },
     {
         "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fourth.xml",

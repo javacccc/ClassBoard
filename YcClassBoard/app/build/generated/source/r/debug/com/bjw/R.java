@@ -189,9 +189,9 @@ public final class R {
         public static final int lesson=0x7f0a0066;
         public static final int linear=0x7f0a0026;
         public static final int listview=0x7f0a003f;
-        public static final int listview1=0x7f0a0044;
-        public static final int listview2=0x7f0a0045;
-        public static final int listview3=0x7f0a0046;
+        public static final int listview_table1=0x7f0a0044;
+        public static final int listview_table2=0x7f0a0045;
+        public static final int listview_table3=0x7f0a0046;
         public static final int listviewforlesson=0x7f0a003d;
         public static final int listviewformessage=0x7f0a003e;
         public static final int mainimg=0x7f0a0029;

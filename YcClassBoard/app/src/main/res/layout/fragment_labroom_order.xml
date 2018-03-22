@@ -219,7 +219,7 @@
                   <View style="@style/horizontal_layout"/>
                   <View style="@style/horizontal_layout"/>
                   <ListView
-                      android:id="@+id/listview1"
+                      android:id="@+id/listview_table1"
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:cacheColorHint="#00000000"
@@ -246,7 +246,7 @@
                   <View style="@style/horizontal_layout"/>
                   <View style="@style/horizontal_layout"/>
                   <ListView
-                      android:id="@+id/listview2"
+                      android:id="@+id/listview_table2"
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:cacheColorHint="#00000000"
@@ -273,7 +273,7 @@
                   <View style="@style/horizontal_layout"/>
                   <View style="@style/horizontal_layout"/>
                   <ListView
-                      android:id="@+id/listview3"
+                      android:id="@+id/listview_table3"
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:cacheColorHint="#00000000"

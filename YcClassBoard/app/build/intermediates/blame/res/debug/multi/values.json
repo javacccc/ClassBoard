@@ -38,15 +38,7 @@
                     "endOffset": 2103
                 },
                 "from": {
-                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 420,
-                        "endLine": 26,
-                        "endColumn": 19,
-                        "endOffset": 740
-                    }
+                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -588,36 +580,60 @@
                     "startOffset": 5406,
                     "endLine": 155,
                     "endColumn": 12,
-                    "endOffset": 5897
+                    "endOffset": 6040
                 },
                 "from": {
-                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 1213
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 156,
                     "startColumn": 4,
-                    "startOffset": 5902,
+                    "startOffset": 6045,
                     "endLine": 160,
                     "endColumn": 12,
-                    "endOffset": 6140
+                    "endOffset": 6282
                 },
                 "from": {
-                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 539
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 6145,
+                    "startOffset": 6287,
                     "endLine": 165,
                     "endColumn": 12,
-                    "endOffset": 6377
+                    "endOffset": 6518
                 },
                 "from": {
-                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "F:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 292
+                    }
                 }
             }
         ]

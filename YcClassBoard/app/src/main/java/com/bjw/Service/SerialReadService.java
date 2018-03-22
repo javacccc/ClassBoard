@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static com.bjw.Common.StaticConfig.isLabLessonFragment;
+import static com.bjw.Common.StaticConfig.isLabOrderFragment;
 import static com.bjw.Common.StaticConfig.lessonTables;
 
 /*************************************************
@@ -78,22 +80,28 @@ public class SerialReadService extends Service {
 /*************************************************
  *@description： 艾博德读卡
 *************************************************/
-        if (ComRecData.flag == 8) {
+//        判断当前是考勤界面
+       if(isLabLessonFragment) {
+           if (ComRecData.flag == 8) {
+               String cardnum = ComRecData.totalnum.substring(4, 12);
+               Intent intent = new Intent();
+               intent.putExtra("cardnum", cardnum);
+               intent.setAction("com.getCardNum");
+               sendBroadcast(intent);
+               Log.i("zxj", cardnum);
+           }
+       }
+//       判断当前是实验室预约界面
+        if(isLabOrderFragment) {
+            //给预约界面发送响应的广播
+            if (ComRecData.flag == 8) {
                 String cardnum = ComRecData.totalnum.substring(4, 12);
                 Intent intent = new Intent();
-                intent.putExtra("cardnum", cardnum);
-                intent.setAction("com.getCardNum");
+                intent.putExtra("cardnumforOrder", cardnum);
+                intent.setAction("com.getOrderCardnum");
                 sendBroadcast(intent);
-                Log.i("zxj", cardnum);
-        }
-        //给预约界面发送响应的广播
-        if (ComRecData.flag == 8) {
-            String cardnum = ComRecData.totalnum.substring(4, 12);
-            Intent intent = new Intent();
-            intent.putExtra("cardnumforOrder", cardnum);
-            intent.setAction("com.getOrderCardnum");
-            sendBroadcast(intent);
-            Log.i("zxj", "预约的数据；"+cardnum);
+                Log.i("zxj", "预约的数据；" + cardnum);
+            }
         }
         /*************************************************
          *@description： 神州视翰的读卡

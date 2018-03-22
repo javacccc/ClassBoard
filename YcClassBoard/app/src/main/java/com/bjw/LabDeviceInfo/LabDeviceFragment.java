@@ -104,7 +104,7 @@ public class LabDeviceFragment extends Fragment {
      *@description： 处理数据
     *************************************************/
     private void initData() {
-        if(labDeviceList.size()==0) {
+//        if(labDeviceList.size()==0) {
             //如果没有数据去服务器端获取数据
             /*************************************************
              *@description： 真实数据的获取
@@ -121,6 +121,7 @@ public class LabDeviceFragment extends Fragment {
                 /*************************************************
                  *@description： 使用假数据
                  *************************************************/
+                    labDeviceList.clear();
                     LabDevice labDevice1 = new LabDevice(LabID, 1, "气动设备", "http://f.hiphotos.baidu.com/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20%3Bt%3Dgif/sign=a7c7151f552c11dfcadcb771024e09b5/810a19d8bc3eb135f6e46547a41ea8d3fd1f442f.jpg", "厂家一", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath1);
                     LabDevice labDevice2 = new LabDevice(LabID, 2, "微电脑插拔力试验机", "http://www.xmkeli.cn/imageRepository/2f74b761-be67-470c-a724-77a65643b4a3.jpg", "厂家二", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath2);
                     LabDevice labDevice3 = new LabDevice(LabID, 3, "设备三", "http://file.youboy.com/d/153/89/78/3/137143s.jpg", "厂家三", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath3);
@@ -128,8 +129,8 @@ public class LabDeviceFragment extends Fragment {
                     LabDevice labDevice5 = new LabDevice(LabID, 5, "设备五", "http://img2.imgtn.bdimg.com/it/u=1463976287,3744399650&fm=214&gp=0.jpg", "厂家五", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath);
                     LabDevice labDevice6 = new LabDevice(LabID, 6, "设备六", "http://img2.imgtn.bdimg.com/it/u=2565928167,1042035775&fm=214&gp=0.jpg", "厂家六", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath);
                     LabDevice labDevice7 = new LabDevice(LabID, 7, "设备七", "http://img.gtimg.c-ps.net/info/big/2015/5/13/20155130922005868.jpg", "厂家七", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath);
-                    LabDevice labDevice8 = new LabDevice(LabID, 8, "设备八", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515576090514&di=d91f9517ec3bf5b5be89de339aeaf85b&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F20%2F21%2F13858PIC3BH_1024.jpg", "厂家八", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath);
-                    LabDevice labDevice9 = new LabDevice(LabID, 9, "设备九", "http://file5.youboy.com/a/45/44/96/1/7755371.jpg", "厂家九", "非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介非常非常非常唱的简介", TestVideoPath);
+                    LabDevice labDevice8 = new LabDevice(LabID, 8, "设备八", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515576090514&di=d91f9517ec3bf5b5be89de339aeaf85b&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F20%2F21%2F13858PIC3BH_1024.jpg", "厂家八", "非常非常非常唱的简介非常非常非常唱的", TestVideoPath);
+                    LabDevice labDevice9 = new LabDevice(LabID, 9, "设备九", "http://file5.youboy.com/a/45/44/96/1/7755371.jpg", "厂家九", "非常非常非常", TestVideoPath);
                     labDeviceList.add(labDevice1);
                     labDeviceList.add(labDevice2);
                     labDeviceList.add(labDevice3);
@@ -142,13 +143,13 @@ public class LabDeviceFragment extends Fragment {
                 }
             //数据拿到之后去根据数据去动态添加View
                 addView();
-        }
-        //设备数据不为空，则直接添加相应的界面，不用去服务器端获取了
-        else
-        {
-            //数据拿到之后去根据数据去动态添加View
-                addView();
-        }
+//        }
+//        //设备数据不为空，则直接添加相应的界面，不用去服务器端获取了
+//        else
+//        {
+//            //数据拿到之后去根据数据去动态添加View
+//                addView();
+//        }
     }
  /*************************************************
   *@description： 添加相应的先横向的View，后纵向的VIew添加

@@ -43,6 +43,7 @@ import static com.bjw.Common.StaticConfig.databasename;
 import static com.bjw.Common.StaticConfig.defaultcourse;
 import static com.bjw.Common.StaticConfig.defaultcoursenumber;
 import static com.bjw.Common.StaticConfig.defaultteacher;
+import static com.bjw.Common.StaticConfig.isLabLessonFragment;
 import static com.bjw.Common.StaticConfig.lessonTables;
 import static com.bjw.Common.StaticConfig.studentCards;
 import static com.bjw.Common.StaticConfig.studentCardsTemp;
@@ -204,6 +205,8 @@ public class LessonFragment extends Fragment {
     }
     public void onStart() {
         super.onStart();
+        //判断当前是否处于刷卡的Fragment
+        isLabLessonFragment=true;
         findById();
         if(broadcastReceiverToGetNum==null) {
             registerForNum();
@@ -221,44 +224,6 @@ public class LessonFragment extends Fragment {
         presentNum.setText(present_num+"");
         obsentNum.setText(obsent_num+"");
         List<Map<String, Object>> list = new ArrayList<Map<String,Object>>() ;
-
-
-
-
-//        lessonTableList=new ArrayList<>();
-
-
-
-//        从数据库里面读取相应的数据
-//        DatebaseHelper myDBHelper;
-//        myDBHelper = new DatebaseHelper(getActivity(), databasename, null, databaseVersion);
-//        final SQLiteDatabase db = myDBHelper.getReadableDatabase();
-//        Cursor cursor = db.query("LessonTable", null, null, null, null, null, null);
-//        while (cursor.moveToNext())
-//        {
-//                int lab_room_id = cursor.getInt(cursor.getColumnIndex("lab_room_id"));
-//                int course_present_people = cursor.getInt(cursor.getColumnIndex("course_present_people"));
-//                int start_class = cursor.getInt(cursor.getColumnIndex("start_class"));
-//                int end_class = cursor.getInt(cursor.getColumnIndex("end_class"));
-//                int total_hour = cursor.getInt(cursor.getColumnIndex("total_hour"));
-//                String course_name = cursor.getString(cursor.getColumnIndex("course_name"));
-//                String course_number = cursor.getString(cursor.getColumnIndex("course_number"));
-//                String course_image_url = cursor.getString(cursor.getColumnIndex("course_image_url"));
-//                String course_teacher_name = cursor.getString(cursor.getColumnIndex("course_teacher_name"));
-//                String course_beginning_time = cursor.getString(cursor.getColumnIndex("course_beginning_time"));
-//                String course_ending_time = cursor.getString(cursor.getColumnIndex("course_ending_time"));
-//                String classes_number = cursor.getString(cursor.getColumnIndex("classes_number"));
-//                String course_program = cursor.getString(cursor.getColumnIndex("course_program"));
-//                String course_date = cursor.getString(cursor.getColumnIndex("course_date"));
-//            lessonTableList.add(new LessonTable(lab_room_id,course_present_people,start_class,end_class,total_hour,course_name,course_number,course_image_url,course_teacher_name,course_beginning_time,course_ending_time,classes_number,course_program,course_date)) ;
-//        }
-//        cursor.close();
-
-
-
-
-
-
         for(int i=0;i<lessonTables.size();i++){
             Map<String,Object> map = new HashMap<String,Object>() ;
             map.put("siple_tv1", lessonTables.get(i).getStart_class()+"-"+lessonTables.get(i).getEnd_class()+"节") ;
@@ -501,6 +466,7 @@ public class LessonFragment extends Fragment {
         broadcastReceiverToRecoverCardTemp=null;
         broadcastReceiverToTimer=null;
         broadcastReceiverToWarnAterClass=null;
+        isLabLessonFragment=false;
         super.onDestroy();
     }
 }

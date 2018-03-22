@@ -57,26 +57,68 @@ public class LessonTableListAdapter extends BaseAdapter {
 		TextView textView4 = (TextView) view.findViewById(R.id.text4);
 		TextView textView5 = (TextView) view.findViewById(R.id.text5);
 		TextView textView6 = (TextView) view.findViewById(R.id.text6);
-		textView1.setTextColor(Color.BLACK);
-		textView2.setTextColor(Color.BLACK);
-		textView3.setTextColor(Color.BLACK);
-		textView4.setTextColor(Color.BLACK);
-		textView5.setTextColor(Color.BLACK);
-		textView6.setTextColor(Color.BLACK);
-		textView1.setText(list.get(0));
-		textView2.setText(list.get(1));
-		textView3.setText(list.get(2));
-		textView4.setText(list.get(3));
-		textView5.setText(list.get(4));
-		textView6.setText(list.get(5));
+		if(list.size()==3) {
+			textView1.setTextColor(Color.BLACK);
+			textView2.setTextColor(Color.BLACK);
+			textView3.setTextColor(Color.BLACK);
+			textView4.setVisibility(View.GONE);
+			textView5.setVisibility(View.GONE);
+			textView6.setVisibility(View.GONE);
+			textView1.setText(list.get(0));
+			textView2.setText(list.get(1));
+			textView3.setText(list.get(2));
+		}
+		else if(list.size()==4)
+		{
+			textView1.setTextColor(Color.BLACK);
+			textView2.setTextColor(Color.BLACK);
+			textView3.setTextColor(Color.BLACK);
+			textView4.setTextColor(Color.BLACK);
+			textView5.setVisibility(View.GONE);
+			textView6.setVisibility(View.GONE);
+			textView1.setText(list.get(0));
+			textView2.setText(list.get(1));
+			textView3.setText(list.get(2));
+			textView4.setText(list.get(3));
+		}
+		if(list.size()==6) {
+			textView1.setTextColor(Color.BLACK);
+			textView2.setTextColor(Color.BLACK);
+			textView3.setTextColor(Color.BLACK);
+			textView4.setTextColor(Color.BLACK);
+			textView5.setTextColor(Color.BLACK);
+			textView6.setTextColor(Color.BLACK);
+			textView1.setText(list.get(0));
+			textView2.setText(list.get(1));
+			textView3.setText(list.get(2));
+			textView4.setText(list.get(3));
+			textView5.setText(list.get(4));
+			textView6.setText(list.get(5));
+		}
 		if(index == 0){
-			view.setBackgroundColor(Color.parseColor("gray"));
-			textView1.setTextColor(Color.WHITE);
-			textView2.setTextColor(Color.WHITE);
-			textView3.setTextColor(Color.WHITE);
-			textView4.setTextColor(Color.WHITE);
-			textView5.setTextColor(Color.WHITE);
-			textView6.setTextColor(Color.WHITE);
+			if(list.size()==3) {
+				view.setBackgroundColor(Color.parseColor("gray"));
+				textView1.setTextColor(Color.WHITE);
+				textView2.setTextColor(Color.WHITE);
+				textView3.setTextColor(Color.WHITE);
+			}
+			else if(list.size()==4)
+			{
+				view.setBackgroundColor(Color.parseColor("gray"));
+				textView1.setTextColor(Color.WHITE);
+				textView2.setTextColor(Color.WHITE);
+				textView3.setTextColor(Color.WHITE);
+				textView4.setTextColor(Color.WHITE);
+			}
+			else if(list.size()==6) {
+				view.setBackgroundColor(Color.parseColor("gray"));
+				textView1.setTextColor(Color.WHITE);
+				textView2.setTextColor(Color.WHITE);
+				textView3.setTextColor(Color.WHITE);
+				textView4.setTextColor(Color.WHITE);
+				textView5.setTextColor(Color.WHITE);
+				textView6.setTextColor(Color.WHITE);
+			}
 		}else{
 			if(index%2 != 0){
 				view.setBackgroundColor(Color.argb(250 ,  255 ,  255 ,  255 )); 
