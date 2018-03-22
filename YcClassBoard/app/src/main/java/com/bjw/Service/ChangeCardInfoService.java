@@ -124,10 +124,6 @@ public class ChangeCardInfoService extends Service {
                         e.printStackTrace();
                     }
                 }
-
-
-
-                Log.e("zxj", "aaaaaaaaaaaaaaa" );
                 try {
                     Date currentTimeforDate = df.parse(currentTime);
                     for(int i=0;i<lessonTables.size();i++)

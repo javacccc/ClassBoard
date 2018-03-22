@@ -18,13 +18,13 @@ import android.widget.Toast;
 import com.bjw.Adapter.FragmentAdapter;
 import com.bjw.Common.NetWorkStateReceiver;
 import com.bjw.DynamicInfo.DynamicInfoFragment;
-import com.bjw.LabRoomOrder.LabOrderFragment;
 import com.bjw.LabDeviceInfo.LabDeviceFragment;
 import com.bjw.LabReport.LabReportFragment;
+import com.bjw.LabRoomOrder.LabOrderFragment;
 import com.bjw.R;
+import com.bjw.Service.ChangeCardInfoService;
 import com.bjw.Service.ChangeCourseService;
 import com.bjw.Service.ChangeTimeService;
-import com.bjw.Service.ChangeCardInfoService;
 import com.bjw.Service.RefreshMessageService;
 import com.bjw.Service.SerialReadService;
 

@@ -3,6 +3,7 @@ package com.bjw.Service;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.bjw.ComAssistant.SerialHelper;
@@ -83,6 +84,16 @@ public class SerialReadService extends Service {
                 intent.putExtra("cardnum", cardnum);
                 intent.setAction("com.getCardNum");
                 sendBroadcast(intent);
+                Log.i("zxj", cardnum);
+        }
+        //给预约界面发送响应的广播
+        if (ComRecData.flag == 8) {
+            String cardnum = ComRecData.totalnum.substring(4, 12);
+            Intent intent = new Intent();
+            intent.putExtra("cardnumforOrder", cardnum);
+            intent.setAction("com.getOrderCardnum");
+            sendBroadcast(intent);
+            Log.i("zxj", "预约的数据；"+cardnum);
         }
         /*************************************************
          *@description： 神州视翰的读卡

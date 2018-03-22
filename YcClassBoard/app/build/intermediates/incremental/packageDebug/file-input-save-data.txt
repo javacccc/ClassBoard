@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 16 15:30:11 CST 2018
+#Mon Mar 19 10:48:21 CST 2018
 122.file=F\:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_dynamic_lesson.xml
 60.set=ANDROID_RESOURCE
 129.file=F\:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\a312_2.png

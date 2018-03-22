@@ -724,10 +724,10 @@ public class GetCourseAndCardInfoService extends Service {
                    myDBHelper = new DatebaseHelper(getBaseContext(), databasename, null, databaseVersion);
                    final SQLiteDatabase db = myDBHelper.getReadableDatabase();
                             List<LessonTable> lessonTableforTest = new ArrayList<>();
-                    LessonTable lessonTable1 = new LessonTable(LabID, 36, 1, 2, 36, "大气污染原理", "TcN1", "图片地址", "张华", "6:00:00", "7:09:00", "测试班级1", "实验一", GetCurrentTime.getCurrentDate());
-        LessonTable lessonTable2 = new LessonTable(LabID, 36, 3, 4, 46, "大气污染控制", "TcN2", "图片地址", "王明", "7:10:00", "7:40:00", "测试班级2", "实验二", GetCurrentTime.getCurrentDate());
-        LessonTable lessonTable3 = new LessonTable(LabID, 36, 5, 6, 54, "大气污染治理", "TcN3", "图片地址", "李飞", "7:50:00", "8:30:00", "测试班级3", "实验三", GetCurrentTime.getCurrentDate());
-        LessonTable lessonTable4 = new LessonTable(LabID, 36, 7, 8, 42, "节能减排", "TcN4", "图片地址", "李华", "8:40:00", "9:30:00", "测试班级4", "实验四", GetCurrentTime.getCurrentDate());
+                    LessonTable lessonTable1 = new LessonTable(LabID, 36, 1, 2, 36, "大气污染原理", "TcN1", "图片地址", "张华", "7:00:00", "8:09:00", "测试班级1", "实验一", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable2 = new LessonTable(LabID, 36, 3, 4, 46, "大气污染控制", "TcN2", "图片地址", "王明", "8:10:00", "9:40:00", "测试班级2", "实验二", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable3 = new LessonTable(LabID, 36, 5, 6, 54, "大气污染治理", "TcN3", "图片地址", "李飞", "9:50:00", "10:30:00", "测试班级3", "实验三", GetCurrentTime.getCurrentDate());
+        LessonTable lessonTable4 = new LessonTable(LabID, 36, 7, 8, 42, "节能减排", "TcN4", "图片地址", "李华", "10:40:00", "17:30:00", "测试班级4", "实验四", GetCurrentTime.getCurrentDate());
                     lessonTableforTest.add(lessonTable1);
                     lessonTableforTest.add(lessonTable2);
                     lessonTableforTest.add(lessonTable3);

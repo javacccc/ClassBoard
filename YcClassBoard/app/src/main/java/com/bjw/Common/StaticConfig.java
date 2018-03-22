@@ -12,9 +12,12 @@ import java.util.List;
 *************************************************/
 public  class StaticConfig {
 //    public  static String imageUrl="http://www.gvsun.net:22900/ycitlims/";
-//    public  static String remoteUrl="https://172.16.1.30:899/ycitlims/";
+//    本地测试地址
+    public  static String remoteUrl="https://172.16.1.152:899/ycitlims/";
+//    学校地址
 //    public  static String remoteUrl="https://222.188.2.245:899/ycitlims/";
-    public  static String remoteUrl="https://192.168.1.184:899/ycitlims/";
+//    公司测试服务器地址
+//    public  static String remoteUrl="https://192.168.1.184:899/ycitlims/";
     public  static int FlagOfConnectTimeOut=0;//标志当前的网络读取数据是否获取错误，获取错误的时候为1
     public  static int LabID=921;//实验室的ID
     public  static String TimeToUpdate="15:19:00";//动态更新数据操作的时间

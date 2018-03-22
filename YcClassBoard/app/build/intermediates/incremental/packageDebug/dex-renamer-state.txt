@@ -1,4 +1,4 @@
-#Fri Mar 16 15:30:10 CST 2018
+#Thu Mar 22 10:21:23 CST 2018
 base.0=F\:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=F\:\\GitHubWorkspace\\ClassBoard\\YcClassBoard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -5,6 +5,9 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.bjw.R;
@@ -18,7 +21,11 @@ public class LabOrderFragment_ViewBinding implements Unbinder {
   public LabOrderFragment_ViewBinding(LabOrderFragment target, View source) {
     this.target = target;
 
-    target.btTest = Utils.findRequiredViewAsType(source, R.id.bt_test, "field 'btTest'", Button.class);
+    target.tvTime = Utils.findRequiredViewAsType(source, R.id.tv_time, "field 'tvTime'", TextView.class);
+    target.etOrdercontent = Utils.findRequiredViewAsType(source, R.id.et_ordercontent, "field 'etOrdercontent'", EditText.class);
+    target.btSubmit = Utils.findRequiredViewAsType(source, R.id.bt_submit, "field 'btSubmit'", Button.class);
+    target.spStartclass = Utils.findRequiredViewAsType(source, R.id.sp_startclass, "field 'spStartclass'", Spinner.class);
+    target.spEndclass = Utils.findRequiredViewAsType(source, R.id.sp_endclass, "field 'spEndclass'", Spinner.class);
   }
 
   @Override
@@ -28,6 +35,10 @@ public class LabOrderFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.btTest = null;
+    target.tvTime = null;
+    target.etOrdercontent = null;
+    target.btSubmit = null;
+    target.spStartclass = null;
+    target.spEndclass = null;
   }
 }

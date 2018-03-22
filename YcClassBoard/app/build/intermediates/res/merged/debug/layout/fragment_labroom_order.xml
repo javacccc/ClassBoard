@@ -11,8 +11,6 @@
        <!--android:layout_height="match_parent"-->
        <!--android:weightSum="10"-->
        <!--android:orientation="horizontal">-->
-
-
        <!--左边1的布局-->
       <LinearLayout
           android:layout_width="0dp"
@@ -119,6 +117,7 @@
                       android:textSize="@dimen/x15"
                       android:background="@drawable/shape_radius_tv"/>
                   <TextView
+                      android:id="@+id/tv_time"
                       android:layout_width="match_parent"
                       android:layout_height="0dp"
                       android:layout_marginTop="@dimen/x20"
@@ -148,13 +147,59 @@
                       android:textColor="@color/white"
                       android:textSize="@dimen/x15"
                       android:background="@drawable/shape_radius_tv1"/>
-                  <Spinner
-                      android:layout_margin="@dimen/x20"
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="2">
+                      <LinearLayout
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:orientation="vertical">
+                      <TextView
+                          android:layout_marginTop="@dimen/x10"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="@dimen/x20"
+                          android:textColor="@color/dark"
+                          android:text="开始节次:"/>
+                      <Spinner
+                      android:id="@+id/sp_startclass"
+                      android:layout_marginLeft="@dimen/x20"
+                      android:layout_marginRight="@dimen/x20"
+                      android:layout_marginBottom="@dimen/x20"
+                      android:layout_marginTop="0sp"
                       android:layout_width="match_parent"
                       android:layout_height="40sp"
                       android:entries="@array/sections"
                       android:background="@color/blue"
                       />
+                      </LinearLayout>
+                      <LinearLayout
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:orientation="vertical">
+                          <TextView
+                              android:layout_marginTop="@dimen/x10"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="@dimen/x20"
+                              android:textColor="@color/dark"
+                              android:text="结束节次:"/>
+                          <Spinner
+                              android:id="@+id/sp_endclass"
+                              android:layout_marginLeft="@dimen/x20"
+                              android:layout_marginRight="@dimen/x20"
+                              android:layout_marginBottom="@dimen/x20"
+                              android:layout_width="match_parent"
+                              android:layout_height="40sp"
+                              android:entries="@array/sections"
+                              android:background="@color/red"
+                              />
+                      </LinearLayout>
+                  </LinearLayout>
               </LinearLayout>
           </LinearLayout>
           <!--第一个表格-->
@@ -279,6 +324,7 @@
                    android:textSize="@dimen/x15"
                    android:background="@drawable/shape_radius_tv2"/>
                    <EditText
+                       android:id="@+id/et_ordercontent"
                        android:layout_margin="@dimen/x20"
                        android:layout_width="match_parent"
                        android:layout_height="40sp"
